@@ -22,6 +22,7 @@ Kontakt {#contact}
 --------------------------------------------------------------------------------
 
 <i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de  
+
 <i class="fas fa-phone"></i> 0171 1858260
 
 
@@ -32,21 +33,28 @@ Programmieren {#programming}
 
 **R**
 
-  - Datenaufbereitung und Datenanalyse mit `dplyr`
+  - Datenanalyse mit `dplyr`
   
   - Visualisierung mit `ggplot2`
   
-  - Statistische Modellierung
+  - Statistische Modellierung / Machine Learning
   
-  - Präsentation der Ergebnisse mit `R Markdown` 
-    
-<br> <!-- vergrößert Abstand -->
+  - Strukturierung & Reporting mit `R Markdown` 
+  
+  - Implementierung MCMC Sampler mit Ridge Penalty in R Package
+  
 
 **Python**
 
-  - Datenanalyse mit <br> `NumPy` & `Pandas`
+  - Datenanalyse mit `NumPy`, `Pandas` & `Matplotlib`
   
-  - Machine Learning mit `scikit-learn`
+  - Machine Learning / Deep Learning mit `Scikit-Learn` & `PyTorch`
+  
+
+**Version Control**
+
+  - Kollaboration mit Git & \
+  GitHub / GitLab
 
 
 
@@ -56,8 +64,13 @@ Sprachen {#language}
 **Englisch**
 
   - IELTS Score: 8.0
+  
+  
+  
+Stipendium {#scholarship} 
+-------------------------------------------------------------------
 
-
+  - Stiftung der deutschen Wirtschaft seit 10/2016 
 
 
 
@@ -86,12 +99,10 @@ Göttingen, Germany
 
 09/2020
 
+- Machine Learning & Deep Learning
 - Ökonometrie & Zeitreihenanalyse
-- Bayesian Statistics 
-- Supervised & Unsupervised Learning
-- Implementierung statistischer Verfahren in eigenem R Package
+- Bayesian Statistics
  
-
 
 ### Universität Mannheim 
 
@@ -103,9 +114,7 @@ Mannheim, Germany
 09/2016 - 03/2020
 
 - Abschlussnote: 1,2 (Top 10%)
-<!-- - Grundlagen der reinen Mathematik  -->
 - Schwerpunkte Stochastik und Optimierung 
-- Nebenfach Volkswirtschaftslehre 
 
 
 ### University of Oslo
@@ -115,8 +124,6 @@ ERASMUS Auslandssemester
 Oslo, Norway
 
 08/2018 - 12/2018
-
-- Finanz- und Versicherungsmathematik
 
 
 ### Ludwigsgymnasium Saarbrücken
@@ -128,7 +135,6 @@ Saarbrücken, Germany
 09/2007 - 07/2015
 
 - Abschlussnote: 1,0 
-<!-- - Leistungskurse Mathematik und Deutsch -->
 
 
 <br> <!-- vergrößert Abstand -->
@@ -138,15 +144,27 @@ Saarbrücken, Germany
 Praxiserfahrung & Engagement {data-icon=chalkboard-teacher} 
 ---------------------------------------------------------------------------------
 
-### Stipendium
+### Tutorenstelle Göttingen
 
-Stiftung der deutschen Wirtschaft
+Lehrstuhl für Ökonometrie
 
 N/A
 
-10/2016 
+seit 10/2021
+
+- Kurs Econometrics (Master)
 
 
+### Hiwi-Job Göttingen
+
+Lehrstuhl für Statistik
+
+N/A
+
+seit 04/2021
+
+- Implementierung und Dokumentation des LIESEL Projektes
+- Python Package für Bayesian Location-Scale Regressionsmodelle
 
 ### Praktikum
 
@@ -161,22 +179,21 @@ N/A
 
 
 
-### Tutorentätigkeit
+### Tutorenstelle Mannheim
 
-Universität Mannheim
+Fakultät für Mathematik
 
 N/A
 
 2018 - 2020
 
-- Fakultät für Mathematik & Fakultät für VWL
+- Kurs Wahrscheinlichkeitstheorie (Bachelor)
 
 
 
 ### Freiwilliges Soziales Jahr
 
-Saarländische Sportjugend: \
-Einsatzstelle TBS Saarbrücken
+Saarländische Sportjugend / TBS Saarbrücken
 
 N/A
 
@@ -184,4 +201,4 @@ N/A
 
 - Lizensierter Jugendtrainer Leichtathletik
 
-<br> <!-- verlängert Timeline nach unten -->
+<br> <!-- verlängert blaue timeline -->

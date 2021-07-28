@@ -1,0 +1,204 @@
+---
+title: "Lebenslauf"
+author: "Joel Beck"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:            
+    css: ['custom.css', 'resume']
+    self_contained: TRUE
+  xaringan::moon_reader:              
+    self_contained: TRUE
+knit: pagedown::chrome_print      # click Knit Button for print to pdf
+---
+
+
+Aside
+================================================================================
+
+
+
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de  
+
+<i class="fas fa-phone"></i> 0171 1858260
+
+
+
+
+Programming {#programming}
+-------------------------------------------------------------------
+
+**R**
+
+  - Data Analysis with `dplyr`
+  
+  - Visualization with `ggplot2`
+  
+  - Statistical Modeling / Machine Learning
+  
+  - Structuring & Reporting with `R Markdown` 
+  
+  - Implementation of MCMC Sampler with Ridge Penalty in R Package
+    
+
+**Python**
+
+  - Data Analysis with `NumPy`, `Pandas` & `Matplotlib`
+  
+  - Machine Learning / Deep Learning with `Scikit-Learn` & `PyTorch`
+  
+
+**Version Control**
+
+  - Collaboration with Git & \
+  GitHub / GitLab
+
+
+
+Languages {#language} 
+-------------------------------------------------------------------
+
+**English**
+
+  - IELTS Score: 8.0
+  
+Scholarship {#scholarship} 
+-------------------------------------------------------------------
+
+  - Stiftung der deutschen Wirtschaft since 10/2016 
+
+
+
+
+Main
+================================================================================
+
+
+
+
+Joel Beck {#title}
+---------------------------------------------------------------------------------
+
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+---------------------------------------------------------------------------------
+
+
+### Georg - August - University Göttingen
+
+Master of Science: Applied Statistics
+
+Göttingen, Germany
+
+09/2020
+
+- Machine Learning & Deep Learning
+- Econometrics & Time Series Analysis
+- Bayesian Statistics
+ 
+
+
+### University of Mannheim 
+
+Bachelor of Science: \
+Business Mathematics
+
+Mannheim, Germany
+
+09/2016 - 03/2020
+
+- Overall Grade: 1.2 (Top 10%)
+- Focus on Stochastics und Optimization
+
+
+### University of Oslo
+
+ERASMUS Study Abroad
+
+Oslo, Norway
+
+08/2018 - 12/2018
+
+
+### Ludwigsgymnasium Saarbrücken
+
+Abitur 
+
+Saarbrücken, Germany
+
+09/2007 - 07/2015
+
+- Overall Grade: 1.0 
+
+
+<br> <!-- vergrößert Abstand -->
+
+
+
+Work Experience {data-icon=chalkboard-teacher} 
+---------------------------------------------------------------------------------
+
+### Teaching Assistant Göttingen
+
+Chair for Econometrics
+
+N/A
+
+since 10/2021
+
+- Course Econometrics (Master)
+
+
+### Research Assistant Göttingen
+
+Chair for Statistics
+
+N/A
+
+since 04/2021
+
+- Implementation and Documentation of the LIESEL Project
+- Python Package for Bayesian Location-Scale Regression Models
+
+
+### Internship
+
+Studybees GmbH Mannheim
+
+N/A
+
+03/2020 - 06/2020
+
+- Preparation and Teaching of Online Courses
+- Focus on Statistics & Econometrics
+
+
+
+### Teaching Assistant Mannheim
+
+Faculty for Mathematics
+
+N/A
+
+2018 - 2020
+
+- Course Probability Theory (Bachelor)
+
+
+
+### Voluntary Year of Social Service
+
+Saarländische Sportjugend / TBS Saarbrücken
+
+N/A
+
+08/2015 - 08/2016
+
+- Licensed Track & Field Coach 
+
+<br> <!-- verlängert blaue timeline -->
