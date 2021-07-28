@@ -1,5 +1,5 @@
 ---
-title: "Lebenslauf"
+title: "Curriculum Vitae"
 author: "Joel Beck"
 date: "`r Sys.Date()`"
 output:
