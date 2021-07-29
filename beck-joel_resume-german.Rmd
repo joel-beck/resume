@@ -199,6 +199,6 @@ N/A
 
 08/2015 - 08/2016
 
-- Lizensierter Jugendtrainer Leichtathletik
+<!-- - Lizensierter Jugendtrainer Leichtathletik -->
 
 <br> <!-- verlängert blaue timeline -->
