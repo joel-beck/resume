@@ -35,7 +35,7 @@ Programmieren {#programming}
 
   - Datenanalyse mit `dplyr`
   
-  - Visualisierung mit `ggplot2`
+  - Datenvisualisierung mit `ggplot2`
   
   - Statistische Modellierung / Machine Learning
   
@@ -46,7 +46,9 @@ Programmieren {#programming}
 
 **Python**
 
-  - Datenanalyse mit `NumPy`, `Pandas` & `Matplotlib`
+  - Datenanalyse mit `Pandas` 
+  
+  - Datenvisualisierung mit `Seaborn` & `Matplotlib`
   
   - Machine Learning / Deep Learning mit `Scikit-Learn` & `PyTorch`
   
@@ -97,7 +99,7 @@ Master of Science: Angewandte Statistik
 
 Göttingen, Germany
 
-09/2020
+seit 09/2020
 
 - Machine Learning & Deep Learning
 - Ökonometrie & Zeitreihenanalyse
@@ -163,8 +165,8 @@ N/A
 
 seit 04/2021
 
-- Implementierung und Dokumentation des LIESEL Projektes
-- Python Package für Bayesian Location-Scale Regressionsmodelle
+- Implementierung und Dokumentation des LIESEL Projektes, \
+ein Python Package für Bayesian Location-Scale Regressionsmodelle
 
 ### Praktikum
 
