@@ -25,6 +25,8 @@ Contact {#contact}
 
 <i class="fas fa-phone"></i> 0171 1858260
 
+<i class="fab fa-github"></i> <https://github.com/joel-beck>
+
 
 
 
@@ -33,24 +35,22 @@ Programming {#programming}
 
 **R**
 
-  - Data Analysis with `dplyr`
-  
-  - Data Visualization with `ggplot2`
-  
-  - Statistical Modeling / Machine Learning
+  - Data Analysis and Visualization with `tidyverse` packages
   
   - Structuring & Reporting with `R Markdown` 
   
-  - Implementation of MCMC Sampler with Ridge Penalty in R Package
+  - Implementation of two R Packages:
+  
+      - `asp21bridge`: Bayesian MCMC Sampler with Ridge Penalty 
+      
+      - `postforecasts`: Collection of Post-Processing Methods for Time Series
     
 
 **Python**
 
-  - Data Analysis with `Pandas` 
+  - Data Analysis and Visualization with `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
   
-  - Data Visualization with `Seaborn` & `Matplotlib`
-  
-  - Machine Learning / Deep Learning with `Scikit-Learn` & `PyTorch`
+  - Machine Learning and Deep Learning with `Scikit-Learn` & `PyTorch`
   
 
 **Version Control**
@@ -66,6 +66,7 @@ Languages {#language}
 **English**
 
   - IELTS Score: 8.0
+  
   
 Scholarship {#scholarship} 
 -------------------------------------------------------------------
@@ -200,7 +201,5 @@ Saarländische Sportjugend / TBS Saarbrücken
 N/A
 
 08/2015 - 08/2016
-
-<!-- - Licensed Track & Field Coach  -->
 
 <br> <!-- verlängert blaue timeline -->

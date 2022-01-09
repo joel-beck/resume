@@ -29,7 +29,7 @@ sup {
 
 * {
   /* Override default right margin for sidebar*/
-  --pagedjs-margin-right: 0.2in;
+  --pagedjs-margin-right: 0.3in;
   --pagedjs-margin-left: 0.2in;
   --pagedjs-margin-top: .15in;
   --pagedjs-margin-bottom: .15in;
@@ -37,7 +37,7 @@ sup {
 
 /* Customize some of the sizing variables */
 :root {
-  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-width: 14rem; /* Shrink sidebar width  */
   --sidebar-background-color: #f7fbff; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
@@ -104,7 +104,7 @@ sup {
 }
 
 
-/* When the class no-timeline is added we remove the after psuedo element from the header... */
+/* When the class no-timeline is added we remove the after pseudo element from the header... */
 
 /* Removes the psuedo element on h2 tags for this section */
 .section.no-timeline h2::after {

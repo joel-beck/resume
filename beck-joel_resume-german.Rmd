@@ -25,7 +25,7 @@ Kontakt {#contact}
 
 <i class="fas fa-phone"></i> 0171 1858260
 
-
+<i class="fab fa-github"></i> <https://github.com/joel-beck>
 
 
 Programmieren {#programming}
@@ -33,24 +33,22 @@ Programmieren {#programming}
 
 **R**
 
-  - Datenanalyse mit `dplyr`
-  
-  - Datenvisualisierung mit `ggplot2`
-  
-  - Statistische Modellierung / Machine Learning
+  - Datenanalyse und Visualisierung mit den `tidyverse` Packages
   
   - Strukturierung & Reporting mit `R Markdown` 
   
-  - Implementierung MCMC Sampler mit Ridge Penalty in R Package
+  - Implementierung zweier R Packages:
+  
+      - `asp21bridge`: Bayesian MCMC Sampler mit Ridge Penalty
+      
+      - `postforecasts`: Sammlung von Post-Processing Methoden für Zeitreihen
   
 
 **Python**
 
-  - Datenanalyse mit `Pandas` 
+  - Datenanalyse und Visualisierung mit `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
   
-  - Datenvisualisierung mit `Seaborn` & `Matplotlib`
-  
-  - Machine Learning / Deep Learning mit `Scikit-Learn` & `PyTorch`
+  - Machine Learning und Deep Learning mit `Scikit-Learn` & `PyTorch`
   
 
 **Version Control**
@@ -168,6 +166,7 @@ seit 04/2021
 - Implementierung und Dokumentation des LIESEL Projektes, \
 ein Python Package für Bayesian Location-Scale Regressionsmodelle
 
+
 ### Praktikum
 
 Studybees GmbH Mannheim
@@ -200,7 +199,5 @@ Saarländische Sportjugend / TBS Saarbrücken
 N/A
 
 08/2015 - 08/2016
-
-<!-- - Lizensierter Jugendtrainer Leichtathletik -->
 
 <br> <!-- verlängert blaue timeline -->
