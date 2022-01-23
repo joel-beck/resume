@@ -35,15 +35,13 @@ Programming {#programming}
 
 **R**
 
-  - Data Analysis and Visualization with `tidyverse` packages
+  - Data Analysis and Visualization with the `tidyverse` packages
   
-  - Structuring & Reporting with `R Markdown` 
-  
-  - Implementation of two R Packages:
+  - Development of two R Packages:
   
       - `asp21bridge`: Bayesian MCMC Sampler with Ridge Penalty 
       
-      - `postforecasts`: Collection of Post-Processing Methods for Time Series
+      - `postforecasts`: Post-Processing Methods for Covid19 Forecasts
     
 
 **Python**
@@ -57,6 +55,11 @@ Programming {#programming}
 
   - Collaboration with Git & \
   GitHub / GitLab
+  
+  
+**Writing**
+  
+  - Text Formatting & Reporting with `Markdown`, `RMarkdown` and `LaTeX` 
 
 
 
@@ -165,8 +168,8 @@ N/A
 
 since 04/2021
 
-- Implementation and Documentation of the LIESEL Project, \
-a Python Package for Bayesian Location-Scale Regression Models
+- Development and Documentation of the LIESEL Project, \
+a R & Python Framework for Bayesian Regression Models
 
 
 ### Internship
