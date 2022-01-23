@@ -51,8 +51,7 @@ Programmieren {#programming}
 
 **Version Control**
 
-  - Kollaboration mit Git & \
-  GitHub / GitLab
+  - Kollaboration mit Git & GitHub / GitLab
   
 **Text**
 
@@ -97,7 +96,7 @@ Bildungsweg {data-icon=graduation-cap data-concise=true}
 
 Master of Science: Angewandte Statistik 
 
-Göttingen, Germany
+N/A <!-- do not display location marker -->
 
 seit 09/2020
 
@@ -108,12 +107,11 @@ seit 09/2020
 
 ### Universität Mannheim 
 
-Bachelor of Science: \
-Wirtschaftsmathematik
+Bachelor of Science: Wirtschaftsmathematik
 
-Mannheim, Germany
+N/A
 
-09/2016 - 03/2020
+03/2020 - 09/2016
 
 - Abschlussnote: 1,2 (Top 10%)
 - Schwerpunkte Stochastik und Optimierung 
@@ -123,18 +121,18 @@ Mannheim, Germany
 
 ERASMUS Auslandssemester
 
-Oslo, Norway
+N/A
 
-08/2018 - 12/2018
+12/2018 - 08/2018
 
 
 ### Ludwigsgymnasium Saarbrücken
 
 Abitur 
 
-Saarbrücken, Germany
+N/A
 
-09/2007 - 07/2015
+07/2015 - 09/2007
 
 - Abschlussnote: 1,0 
 
@@ -175,7 +173,7 @@ Studybees GmbH Mannheim
 
 N/A
 
-03/2020 - 06/2020
+06/2020 - 03/2020
 
 - Planung und Durchführung von Onlinekursen 
 - Schwerpunkte Statistik & Ökonometrie
@@ -188,7 +186,7 @@ Fakultät für Mathematik
 
 N/A
 
-2018 - 2020
+2020 - 2018
 
 - Kurs Wahrscheinlichkeitstheorie (Bachelor)
 
@@ -200,6 +198,6 @@ Saarländische Sportjugend / TBS Saarbrücken
 
 N/A
 
-08/2015 - 08/2016
+08/2016 - 08/2015
 
 <br> <!-- verlängert blaue timeline -->

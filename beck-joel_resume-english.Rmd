@@ -53,8 +53,7 @@ Programming {#programming}
 
 **Version Control**
 
-  - Collaboration with Git & \
-  GitHub / GitLab
+  - Collaboration with Git & GitHub / GitLab
   
   
 **Writing**
@@ -99,7 +98,7 @@ Education {data-icon=graduation-cap data-concise=true}
 
 Master of Science: Applied Statistics
 
-Göttingen, Germany
+N/A <!-- do not display location marker -->
 
 since 09/2020
 
@@ -111,12 +110,11 @@ since 09/2020
 
 ### University of Mannheim 
 
-Bachelor of Science: \
-Business Mathematics
+Bachelor of Science: Business Mathematics
 
-Mannheim, Germany
+N/A
 
-09/2016 - 03/2020
+03/2020 - 09/2016 <!-- timeline order from bottom to top -->
 
 - Overall Grade: 1.2 (Top 10%)
 - Focus on Stochastics und Optimization
@@ -126,18 +124,18 @@ Mannheim, Germany
 
 ERASMUS Study Abroad
 
-Oslo, Norway
+N/A
 
-08/2018 - 12/2018
+12/2018 - 08/2018
 
 
 ### Ludwigsgymnasium Saarbrücken
 
 Abitur 
 
-Saarbrücken, Germany
+N/A
 
-09/2007 - 07/2015
+07/2015 - 09/2007
 
 - Overall Grade: 1.0 
 
@@ -178,7 +176,7 @@ Studybees GmbH Mannheim
 
 N/A
 
-03/2020 - 06/2020
+06/2020 - 03/2020
 
 - Preparation and Teaching of Online Courses
 - Focus on Statistics & Econometrics
@@ -191,7 +189,7 @@ Faculty of Mathematics
 
 N/A
 
-2018 - 2020
+2020 - 2018
 
 - Course Probability Theory (Bachelor)
 
@@ -203,6 +201,6 @@ Saarländische Sportjugend / TBS Saarbrücken
 
 N/A
 
-08/2015 - 08/2016
+08/2016 - 08/2015
 
 <br> <!-- verlängert blaue timeline -->
