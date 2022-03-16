@@ -28,8 +28,6 @@ Contact {#contact}
 <i class="fab fa-github"></i> <https://github.com/joel-beck>
 
 
-
-
 Programming {#programming}
 -------------------------------------------------------------------
 
@@ -39,9 +37,9 @@ Programming {#programming}
   
   - Development of two R Packages:
   
-      - `asp21bridge`: Bayesian MCMC Sampler with Ridge Penalty 
+      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty 
       
-      - `postforecasts`: Post-Processing Methods for Covid19 Forecasts
+      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
     
 
 **Python**
@@ -164,7 +162,7 @@ Chair for Statistics
 
 N/A
 
-since 04/2021
+04/2022 - 04/2021
 
 - Development and Documentation of the LIESEL Project, \
 a R & Python Framework for Bayesian Regression Models

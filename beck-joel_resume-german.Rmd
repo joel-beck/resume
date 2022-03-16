@@ -37,9 +37,9 @@ Programmieren {#programming}
   
   - Entwicklung zweier R Packages:
   
-      - `asp21bridge`: Bayesian MCMC Sampler mit Ridge Penalty
+      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler mit Ridge Penalty
       
-      - `postforecasts`: Post-Processing Methoden für Covid19 Forecasts
+      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methoden für Covid-19 Forecasts
   
 
 **Python**
@@ -161,7 +161,7 @@ Lehrstuhl für Statistik
 
 N/A
 
-seit 04/2021
+04/2022 - 04/2021
 
 - Entwicklung und Dokumentation des LIESEL Projektes, \
 ein R & Python Framework für Bayesian Regressionsmodelle
