@@ -25,7 +25,7 @@ Contact {#contact}
 
 <i class="fas fa-phone"></i> 0171 1858260
 
-<i class="fab fa-github"></i> <https://github.com/joel-beck>
+<i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
 
 
 Programming {#programming}
