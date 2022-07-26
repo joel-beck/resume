@@ -3,10 +3,10 @@ title: "Lebenslauf"
 author: "Joel Beck"
 date: "`r Sys.Date()`"
 output:
-  pagedown::html_resume:            
+  pagedown::html_resume:
     css: ['custom.css', 'resume']
     self_contained: TRUE
-  xaringan::moon_reader:              
+  xaringan::moon_reader:
     self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
@@ -21,7 +21,7 @@ Aside
 Kontakt {#contact}
 --------------------------------------------------------------------------------
 
-<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de  
+<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
 <i class="fas fa-phone"></i> 0171 1858260
 
@@ -33,45 +33,48 @@ Programmieren {#programming}
 
 **R**
 
-  - Datenanalyse und Visualisierung mit den `tidyverse` Packages
-  
-  - Entwicklung zweier R Packages:
-  
+  - Datenanalyse und Visualisierung mit `tidyverse` Paketen
+
+  - Entwicklung zweier R Pakete:
+
       - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler mit Ridge Penalty
-      
+
       - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methoden für Covid-19 Forecasts
-  
+
 
 **Python**
 
   - Datenanalyse und Visualisierung mit `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
-  
+
   - Machine Learning und Deep Learning mit `Scikit-Learn` & `PyTorch`
-  
 
-**Version Control**
 
-  - Kollaboration mit Git & GitHub / GitLab
-  
+**Kommandozeile**
+
+  - Version Control mit Git
+
+  - Grundlagen des Bash Scripting
+
+
 **Text**
 
-  - Formatierung & Reporting mit `Markdown`, `RMarkdown` und `LaTeX` 
+  - Tutorials & Dokumentation mit `Markdown`, `RMarkdown` & `Quarto`
+
+  - Wissenschaftliches Schreiben mit `LaTeX`
 
 
-
-Sprachen {#language} 
+Sprachen {#language}
 -------------------------------------------------------------------
 
 **Englisch**
 
   - IELTS Score: 8.0
-  
-  
-  
-Stipendium {#scholarship} 
+
+
+Stipendium {#scholarship}
 -------------------------------------------------------------------
 
-  - Stiftung der deutschen Wirtschaft seit 10/2016 
+  - Stiftung der deutschen Wirtschaft seit 10/2016
 
 
 
@@ -94,7 +97,7 @@ Bildungsweg {data-icon=graduation-cap data-concise=true}
 
 ### Georg - August - Universität Göttingen
 
-Master of Science: Angewandte Statistik 
+Master of Science: Angewandte Statistik
 
 N/A <!-- do not display location marker -->
 
@@ -103,9 +106,9 @@ seit 09/2020
 - Machine Learning & Deep Learning
 - Ökonometrie & Zeitreihenanalyse
 - Bayesian Statistics
- 
 
-### Universität Mannheim 
+
+### Universität Mannheim
 
 Bachelor of Science: Wirtschaftsmathematik
 
@@ -114,7 +117,7 @@ N/A
 03/2020 - 09/2016
 
 - Abschlussnote: 1,2 (Top 10%)
-- Schwerpunkte Stochastik und Optimierung 
+- Schwerpunkte Stochastik und Optimierung
 
 
 ### University of Oslo
@@ -128,20 +131,20 @@ N/A
 
 ### Ludwigsgymnasium Saarbrücken
 
-Abitur 
+Abitur
 
 N/A
 
 07/2015 - 09/2007
 
-- Abschlussnote: 1,0 
+- Abschlussnote: 1,0
 
 
 <br> <!-- vergrößert Abstand -->
 
 
 
-Praxiserfahrung & Engagement {data-icon=chalkboard-teacher} 
+Praxiserfahrung & Engagement {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
 ### Tutorenstelle Göttingen
@@ -150,7 +153,7 @@ Lehrstuhl für Ökonometrie
 
 N/A
 
-seit 10/2021
+09/2022 - 10/2021
 
 - Kurs Econometrics (Master)
 
@@ -163,7 +166,7 @@ N/A
 
 04/2022 - 04/2021
 
-- Entwicklung und Dokumentation des LIESEL Projektes, \
+- Entwicklung und Dokumentation von [liesel](https://github.com/liesel-devs/liesel), \
 ein R & Python Framework für Bayesian Regressionsmodelle
 
 
@@ -175,7 +178,7 @@ N/A
 
 06/2020 - 03/2020
 
-- Planung und Durchführung von Onlinekursen 
+- Planung und Durchführung von Onlinekursen
 - Schwerpunkte Statistik & Ökonometrie
 
 

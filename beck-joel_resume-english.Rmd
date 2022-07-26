@@ -3,10 +3,10 @@ title: "Curriculum Vitae"
 author: "Joel Beck"
 date: "`r Sys.Date()`"
 output:
-  pagedown::html_resume:            
+  pagedown::html_resume:
     css: ['custom.css', 'resume']
     self_contained: TRUE
-  xaringan::moon_reader:              
+  xaringan::moon_reader:
     self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
@@ -21,7 +21,7 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de  
+<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
 <i class="fas fa-phone"></i> 0171 1858260
 
@@ -33,45 +33,50 @@ Programming {#programming}
 
 **R**
 
-  - Data Analysis and Visualization with the `tidyverse` packages
-  
+  - Data Analysis and Visualization with `tidyverse` packages
+
   - Development of two R Packages:
-  
-      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty 
-      
+
+      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+
       - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
-    
+
 
 **Python**
 
   - Data Analysis and Visualization with `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
-  
+
   - Machine Learning and Deep Learning with `Scikit-Learn` & `PyTorch`
-  
 
-**Version Control**
 
-  - Collaboration with Git & GitHub / GitLab
-  
-  
+**Command Line**
+
+  - Version Control with Git
+
+  - Basics of Bash Scripting
+
+
 **Writing**
-  
-  - Text Formatting & Reporting with `Markdown`, `RMarkdown` and `LaTeX` 
+
+  - Tutorials & Documentation with `Markdown`, `RMarkdown` & `Quarto`
+
+  - Scientific Writing with `LaTeX`
 
 
 
-Languages {#language} 
+
+Languages {#language}
 -------------------------------------------------------------------
 
 **English**
 
   - IELTS Score: 8.0
-  
-  
-Scholarship {#scholarship} 
+
+
+Scholarship {#scholarship}
 -------------------------------------------------------------------
 
-  - Stiftung der deutschen Wirtschaft since 10/2016 
+  - Stiftung der deutschen Wirtschaft since 10/2016
 
 
 
@@ -103,10 +108,10 @@ since 09/2020
 - Machine Learning & Deep Learning
 - Econometrics & Time Series Analysis
 - Bayesian Statistics
- 
 
 
-### University of Mannheim 
+
+### University of Mannheim
 
 Bachelor of Science: Business Mathematics
 
@@ -129,20 +134,20 @@ N/A
 
 ### Ludwigsgymnasium Saarbrücken
 
-Abitur 
+Abitur
 
 N/A
 
 07/2015 - 09/2007
 
-- Overall Grade: 1.0 
+- Overall Grade: 1.0
 
 
 <br> <!-- vergrößert Abstand -->
 
 
 
-Work Experience {data-icon=chalkboard-teacher} 
+Work Experience {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
 ### Teaching Assistant Göttingen
@@ -151,7 +156,7 @@ Chair for Econometrics
 
 N/A
 
-since 10/2021
+09/2022 - 10/2021
 
 - Course Econometrics (Master)
 
@@ -164,8 +169,8 @@ N/A
 
 04/2022 - 04/2021
 
-- Development and Documentation of the LIESEL Project, \
-a R & Python Framework for Bayesian Regression Models
+- Development and Documentation of [liesel](https://github.com/liesel-devs/liesel), \
+an R & Python Framework for Bayesian Regression Models
 
 
 ### Internship
