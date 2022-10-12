@@ -33,7 +33,7 @@ sup {
 }
 
 * {
-  /* Override default right margin for sidebar*/
+  /* BOOKMARK: Size of right Sidebar Margin */
   --pagedjs-margin-right: 0.3in;
   --pagedjs-margin-left: 0.2in;
   --pagedjs-margin-top: .15in;
@@ -44,13 +44,14 @@ sup {
 :root {
   /* Shrink sidebar width  */
   --sidebar-width: 17rem;
-  /* Make sidebar blue */
-  --sidebar-background-color: #f7fbff;
-  /* Reduce sidebar padding */
-  --sidebar-horizontal-padding: 0.01in;
-  /* Make position deliniating circles larger */
-  --decorator-outer-dim: 10px;
-  /* Make timeline a blue as well*/
+   /* BOOKMARK: Background color of right Sidebar */
+   --sidebar-background-color: #e7eff7;
+   /* Reduce sidebar padding */
+   --sidebar-horizontal-padding: 0.01in;
+   /* Make position deliniating circles larger */
+   --decorator-outer-dim: 10px;
+   /* Make timeline a blue as well*/
+   /* BOOKMARK: Color of vertical Timeline */
   --decorator-border: 2px solid #bdd7e7;
 }
 

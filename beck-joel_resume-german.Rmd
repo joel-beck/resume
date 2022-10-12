@@ -103,9 +103,8 @@ N/A <!-- do not display location marker -->
 
 seit 09/2020
 
-- Machine Learning & Deep Learning
-- Ökonometrie & Zeitreihenanalyse
-- Bayesian Statistics
+- Schwerpunkt 1: Machine Learning & Deep Learning
+- Schwerpunkt 2: Ökonometrie
 
 
 ### Universität Mannheim
@@ -147,6 +146,17 @@ N/A
 Praxiserfahrung & Engagement {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
+### Praktikum
+
+eoda GmbH Kassel
+
+N/A
+
+01/2023 - 11/2022
+
+- Data Science Praktikant
+
+
 ### Tutorenstelle Göttingen
 
 Lehrstuhl für Ökonometrie
@@ -154,8 +164,6 @@ Lehrstuhl für Ökonometrie
 N/A
 
 09/2022 - 10/2021
-
-- Kurs Econometrics (Master)
 
 
 ### Hiwi-Job Göttingen
@@ -185,13 +193,11 @@ N/A
 
 ### Tutorenstelle Mannheim
 
-Fakultät für Mathematik
+Lehrstuhl für Wahrscheinlichkeitstheorie
 
 N/A
 
 2020 - 2018
-
-- Kurs Wahrscheinlichkeitstheorie (Bachelor)
 
 
 

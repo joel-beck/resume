@@ -105,10 +105,8 @@ N/A <!-- do not display location marker -->
 
 since 09/2020
 
-- Machine Learning & Deep Learning
-- Econometrics & Time Series Analysis
-- Bayesian Statistics
-
+- Primary Focus: Machine Learning & Deep Learning
+- Secondary Focus: Econometrics
 
 
 ### University of Mannheim
@@ -150,6 +148,17 @@ N/A
 Work Experience {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
+### Internship
+
+eoda GmbH Kassel
+
+N/A
+
+01/2023 - 11/2022
+
+- Data Science Intern
+
+
 ### Teaching Assistant Göttingen
 
 Chair for Econometrics
@@ -157,8 +166,6 @@ Chair for Econometrics
 N/A
 
 09/2022 - 10/2021
-
-- Course Econometrics (Master)
 
 
 ### Research Assistant Göttingen
@@ -188,13 +195,11 @@ N/A
 
 ### Teaching Assistant Mannheim
 
-Faculty of Mathematics
+Chair for Probability Theory
 
 N/A
 
 2020 - 2018
-
-- Course Probability Theory (Bachelor)
 
 
 
