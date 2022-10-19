@@ -49,16 +49,18 @@ Programming {#programming}
   - Machine Learning and Deep Learning with `Scikit-Learn` & `PyTorch`
 
 
-**Command Line**
+**Utilities**
 
-  - Version Control with Git
+  - Git
 
-  - Basics of Bash Scripting
+  - Basics of Bash
+
+  - Basics of SQL
 
 
 **Writing**
 
-  - Tutorials & Documentation with `Markdown`, `RMarkdown` & `Quarto`
+  - Analysis and Tutorials with `[R]Markdown` & `Quarto`
 
   - Scientific Writing with `LaTeX`
 
