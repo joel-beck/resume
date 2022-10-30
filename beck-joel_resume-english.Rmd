@@ -178,7 +178,7 @@ N/A
 
 04/2022 - 04/2021
 
-- Development and Documentation of [liesel](https://github.com/liesel-devs/liesel), \
+- Development and Documentation of [Liesel](https://github.com/liesel-devs/liesel), \
 an R & Python Framework for Bayesian Regression Models
 
 
