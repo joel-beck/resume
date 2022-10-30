@@ -27,6 +27,8 @@ Contact {#contact}
 
 <i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
 
+<i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
+
 
 Programming {#programming}
 -------------------------------------------------------------------
