@@ -33,9 +33,18 @@ Contact {#contact}
 Programming {#programming}
 -------------------------------------------------------------------
 
+**Python**
+
+  - Data Analysis and Visualization with `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
+
+  - Modeling with `Scikit-Learn` & `PyTorch`
+  
+  - Passion for Package Development and Workflow-Tools
+
+
 **R**
 
-  - Data Analysis and Visualization with `tidyverse` packages
+  - Data Analysis, Visualization and Modeling with `tidyverse` & `tidymodels`
 
   - Development of two R Packages:
 
@@ -44,20 +53,12 @@ Programming {#programming}
       - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
 
-**Python**
-
-  - Data Analysis and Visualization with `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
-
-  - Machine Learning and Deep Learning with `Scikit-Learn` & `PyTorch`
-
-
 **Utilities**
 
-  - Git
+  - Git & CI/CD with GitHub Actions / GitLab CI
 
-  - Basics of Bash
+  - Basics of Bash & SQL
 
-  - Basics of SQL
 
 
 **Writing**
@@ -65,7 +66,6 @@ Programming {#programming}
   - Analysis and Tutorials with `[R]Markdown` & `Quarto`
 
   - Scientific Writing with `LaTeX`
-
 
 
 
@@ -109,8 +109,8 @@ N/A <!-- do not display location marker -->
 
 since 09/2020
 
-- Primary Focus: Machine Learning & Deep Learning
-- Secondary Focus: Econometrics
+- Current Average Grade: 1.0 (Top 1%)
+- Focus on Machine Learning & Deep Learning
 
 
 ### University of Mannheim
@@ -152,7 +152,7 @@ N/A
 Work Experience {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
-### Internship
+### Internship: Data Scientist
 
 eoda GmbH Kassel
 
@@ -160,7 +160,7 @@ N/A
 
 01/2023 - 11/2022
 
-- Data Science Intern
+- Building Machine Learning Models to predict Energy Consumption
 
 
 ### Teaching Assistant Göttingen
@@ -184,7 +184,7 @@ N/A
 an R & Python Framework for Bayesian Regression Models
 
 
-### Internship
+### Internship: Content Creator
 
 Studybees GmbH Mannheim
 

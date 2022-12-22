@@ -33,9 +33,18 @@ Kontakt {#contact}
 Programmieren {#programming}
 -------------------------------------------------------------------
 
+**Python**
+
+  - Datenanalyse und Visualisierung mit `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
+
+  - Modellierung mit `Scikit-Learn` & `PyTorch`
+  
+  - Leidenschaft für Paketentwicklung und Workflow-Tools
+  
+  
 **R**
 
-  - Datenanalyse und Visualisierung mit `tidyverse` Paketen
+  - Datenanalyse, Visualisierung und Modellierung mit `tidyverse` & `tidymodels`
 
   - Entwicklung zweier R Pakete:
 
@@ -44,20 +53,11 @@ Programmieren {#programming}
       - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methoden für Covid-19 Forecasts
 
 
-**Python**
-
-  - Datenanalyse und Visualisierung mit `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
-
-  - Machine Learning und Deep Learning mit `Scikit-Learn` & `PyTorch`
-
-
 **Utilities**
 
-  - Git
+  - Git & CI/CD mit GitHub Actions / GitLab CI
 
-  - Grundlagen von Bash
-
-  - Grundlagen von SQL
+  - Grundlagen von Bash & SQL
 
 
 **Text**
@@ -107,8 +107,8 @@ N/A <!-- do not display location marker -->
 
 seit 09/2020
 
-- Schwerpunkt 1: Machine Learning & Deep Learning
-- Schwerpunkt 2: Ökonometrie
+- Aktuelle Durchschnittsnote: 1,0 (Top 1%)
+- Schwerpunkte Machine Learning & Deep Learning
 
 
 ### Universität Mannheim
@@ -150,7 +150,7 @@ N/A
 Praxiserfahrung & Engagement {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
-### Praktikum
+### Praktikum: Data Scientist
 
 eoda GmbH Kassel
 
@@ -158,7 +158,8 @@ N/A
 
 01/2023 - 11/2022
 
-- Data Science Praktikant
+- Implementierung von Machine Learning Modellen zur Energieverbrauchsprognose
+
 
 
 ### Tutorenstelle Göttingen
@@ -182,7 +183,7 @@ N/A
 ein R & Python Framework für Bayesian Regressionsmodelle
 
 
-### Praktikum
+### Praktikum: Content Creator
 
 Studybees GmbH Mannheim
 
