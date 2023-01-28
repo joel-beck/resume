@@ -38,10 +38,10 @@ Programmieren {#programming}
   - Datenanalyse und Visualisierung mit `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
 
   - Modellierung mit `Scikit-Learn` & `PyTorch`
-  
+
   - Leidenschaft für Paketentwicklung und Workflow-Tools
-  
-  
+
+
 **R**
 
   - Datenanalyse, Visualisierung und Modellierung mit `tidyverse` & `tidymodels`
@@ -55,9 +55,10 @@ Programmieren {#programming}
 
 **Utilities**
 
+  - Grundlagen von Bash & Web Entwicklung
+
   - Git & CI/CD mit GitHub Actions / GitLab CI
 
-  - Grundlagen von Bash & SQL
 
 
 **Text**
@@ -109,7 +110,7 @@ seit 09/2020
 
 - Aktuelle Durchschnittsnote: 1,0 (Top 1%)
 - Schwerpunkte Machine Learning & Deep Learning
-
+- Masterarbeit in Natural Language Processing
 
 ### Universität Mannheim
 
@@ -147,7 +148,8 @@ N/A
 
 
 
-Praxiserfahrung & Engagement {data-icon=chalkboard-teacher}
+<!-- Praxiserfahrung & Engagement {data-icon=chalkboard-teacher} -->
+Praxiserfahrung {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
 ### Praktikum: Data Scientist
@@ -158,7 +160,8 @@ N/A
 
 01/2023 - 11/2022
 
-- Implementierung von Machine Learning Modellen zur Energieverbrauchsprognose
+- Datenaufbereitung, Feature Engineering, Modellierung und Design bzw. Infrastruktur von Projekten
+- Blogbeiträge über das `Tidyverse` und die `pandas` Bibliothek
 
 
 
@@ -206,12 +209,12 @@ N/A
 
 
 
-### Freiwilliges Soziales Jahr
+<!-- ### Freiwilliges Soziales Jahr
 
 Saarländische Sportjugend / TBS Saarbrücken
 
 N/A
 
-08/2016 - 08/2015
+08/2016 - 08/2015 -->
 
 <br> <!-- verlängert blaue timeline -->

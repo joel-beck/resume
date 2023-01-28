@@ -16,8 +16,6 @@ Aside
 ================================================================================
 
 
-
-
 Contact {#contact}
 --------------------------------------------------------------------------------
 
@@ -38,7 +36,7 @@ Programming {#programming}
   - Data Analysis and Visualization with `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
 
   - Modeling with `Scikit-Learn` & `PyTorch`
-  
+
   - Passion for Package Development and Workflow-Tools
 
 
@@ -55,9 +53,9 @@ Programming {#programming}
 
 **Utilities**
 
-  - Git & CI/CD with GitHub Actions / GitLab CI
+  - Basics of Bash & Web Development
 
-  - Basics of Bash & SQL
+  - Git & CI/CD with GitHub Actions / GitLab CI
 
 
 
@@ -111,6 +109,7 @@ since 09/2020
 
 - Current Average Grade: 1.0 (Top 1%)
 - Focus on Machine Learning & Deep Learning
+- Master's Thesis in Natural Language Processing
 
 
 ### University of Mannheim
@@ -160,7 +159,8 @@ N/A
 
 01/2023 - 11/2022
 
-- Building Machine Learning Models to predict Energy Consumption
+- Data Preprocessing, Feature Engineering, Modeling and Design/Infrastructure of Projects
+- Blog Posts about the `Tidyverse` and the `pandas` Library
 
 
 ### Teaching Assistant Göttingen
@@ -207,12 +207,12 @@ N/A
 
 
 
-### Voluntary Year of Social Service
+<!-- ### Voluntary Year of Social Service
 
 Saarländische Sportjugend / TBS Saarbrücken
 
 N/A
 
-08/2016 - 08/2015
+08/2016 - 08/2015 -->
 
 <br> <!-- verlängert blaue timeline -->
