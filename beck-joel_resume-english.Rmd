@@ -16,6 +16,7 @@ Aside
 ================================================================================
 
 
+
 Contact {#contact}
 --------------------------------------------------------------------------------
 
@@ -28,32 +29,36 @@ Contact {#contact}
 <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
 
 
+
 Programming {#programming}
 -------------------------------------------------------------------
 
 **Python**
 
-  - Data Analysis and Visualization with `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
+  - Data Analysis + Modeling `Pandas`, `Scikit-Learn` & `PyTorch`
 
-  - Modeling with `Scikit-Learn` & `PyTorch`
+  - Student Projects / Packages:
 
-  - Passion for Package Development and Workflow-Tools
+      - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+
+      - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
 
 **R**
 
-  - Data Analysis, Visualization and Modeling with `tidyverse` & `tidymodels`
+  - Data Analysis + Modeling with `Tidyverse` & `Tidymodels`
 
-  - Development of two R Packages:
+  - Student Projects / Packages:
+
+      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
       - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
 
-      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
 
 **Utilities**
 
-  - Basics of Bash & Web Development
+  - Typescript for Backend Development
 
   - Git & CI/CD with GitHub Actions / GitLab CI
 
@@ -70,15 +75,14 @@ Programming {#programming}
 Languages {#language}
 -------------------------------------------------------------------
 
-**English**
-
-  - IELTS Score: 8.0
+  - English: IELTS Score 8.0
 
 
 Scholarship {#scholarship}
 -------------------------------------------------------------------
 
-  - Stiftung der deutschen Wirtschaft since 10/2016
+  - Stiftung der deutschen Wirtschaft since 2016
+
 
 
 
@@ -160,7 +164,7 @@ N/A
 01/2023 - 11/2022
 
 - Data Preprocessing, Feature Engineering, Modeling and Design/Infrastructure of Projects
-- Blog Posts about the `Tidyverse` and the `pandas` Library
+- Blog Posts about the `Tidyverse` and the `Pandas` Library
 
 
 ### Teaching Assistant Göttingen
@@ -205,14 +209,5 @@ N/A
 
 2020 - 2018
 
-
-
-<!-- ### Voluntary Year of Social Service
-
-Saarländische Sportjugend / TBS Saarbrücken
-
-N/A
-
-08/2016 - 08/2015 -->
 
 <br> <!-- verlängert blaue timeline -->

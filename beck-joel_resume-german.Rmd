@@ -17,7 +17,6 @@ Aside
 
 
 
-
 Kontakt {#contact}
 --------------------------------------------------------------------------------
 
@@ -30,32 +29,36 @@ Kontakt {#contact}
 <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
 
 
+
 Programmieren {#programming}
 -------------------------------------------------------------------
 
 **Python**
 
-  - Datenanalyse und Visualisierung mit `NumPy`, `Pandas`, `Seaborn` & `Matplotlib`
+  - Datenanalyse + Modellierung mit `Pandas`, `Scikit-Learn` & `PyTorch`
 
-  - Modellierung mit `Scikit-Learn` & `PyTorch`
+  - Student Projects / Packages:
 
-  - Leidenschaft für Paketentwicklung und Workflow-Tools
+      - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+
+      - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
 
 **R**
 
-  - Datenanalyse, Visualisierung und Modellierung mit `tidyverse` & `tidymodels`
+  - Datenanalyse + Modellierung mit `Tidyverse` & `Tidymodels`
 
-  - Entwicklung zweier R Pakete:
+  - Student Projects / Packages:
 
-      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler mit Ridge Penalty
+      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
-      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methoden für Covid-19 Forecasts
+      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+
 
 
 **Utilities**
 
-  - Grundlagen von Bash & Web Entwicklung
+  - Typescript für Backend Entwicklung
 
   - Git & CI/CD mit GitHub Actions / GitLab CI
 
@@ -68,18 +71,18 @@ Programmieren {#programming}
   - Wissenschaftliches Schreiben mit `LaTeX`
 
 
+
 Sprachen {#language}
 -------------------------------------------------------------------
 
-**Englisch**
-
-  - IELTS Score: 8.0
+  - Englisch: IELTS Score 8.0
 
 
 Stipendium {#scholarship}
 -------------------------------------------------------------------
 
-  - Stiftung der deutschen Wirtschaft seit 10/2016
+  - Stiftung der deutschen Wirtschaft seit 2016
+
 
 
 
@@ -111,6 +114,7 @@ seit 09/2020
 - Aktuelle Durchschnittsnote: 1,0 (Top 1%)
 - Schwerpunkte Machine Learning & Deep Learning
 - Masterarbeit in Natural Language Processing
+
 
 ### Universität Mannheim
 
@@ -148,7 +152,6 @@ N/A
 
 
 
-<!-- Praxiserfahrung & Engagement {data-icon=chalkboard-teacher} -->
 Praxiserfahrung {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
@@ -161,8 +164,7 @@ N/A
 01/2023 - 11/2022
 
 - Datenaufbereitung, Feature Engineering, Modellierung und Design bzw. Infrastruktur von Projekten
-- Blogbeiträge über das `Tidyverse` und die `pandas` Bibliothek
-
+- Blogbeiträge über das `Tidyverse` und die `Pandas` Bibliothek
 
 
 ### Tutorenstelle Göttingen
@@ -207,14 +209,5 @@ N/A
 
 2020 - 2018
 
-
-
-<!-- ### Freiwilliges Soziales Jahr
-
-Saarländische Sportjugend / TBS Saarbrücken
-
-N/A
-
-08/2016 - 08/2015 -->
 
 <br> <!-- verlängert blaue timeline -->
