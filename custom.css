@@ -3,17 +3,35 @@ see https://github.com/rstudio/pagedown/blob/2b46119f4a882aaa3b39e63229b0ce67d0a
 for a list with CSS options
 */
 
+/* Typography */
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap");
 
-/* Set the font family for the main text as Montserrat */
+/* SUBSECTION: Global Variables */
+:root {
+  --sidebar-width: 19rem; /* Set the width of the right sidebar */
+  --sidebar-background-color: #f2f7fd; /* Set the background color of the right sidebar */
+  --sidebar-horizontal-padding: 0.1in; /* Set the horizontal padding for the right sidebar to the right page border */
+  --decorator-outer-dim: 10px; /* Set the size of position deliniating circles */
+  --decorator-border: 2px solid #bdd7e7; /* Set the color and width of the vertical timeline */
+}
+
+/* Page margins settings */
+* {
+  --pagedjs-margin-right: 0.3in; /* Set right margin */
+  --pagedjs-margin-left: 0.2in; /* Set left margin */
+  --pagedjs-margin-top: .15in; /* Set top margin */
+  --pagedjs-margin-bottom: .15in; /* Set bottom margin */
+}
+
+/* Main text styles */
 body {
   font-family: "Montserrat", sans-serif;
-  font-weight: 300; /* Set font-weight to 300 (light) */
-  line-height: 1.3; /* Set line-height to 1.3 for better readability */
+  font-weight: 300; /* Set font-weight to a lighter value */
+  line-height: 1.3; /* Set line-height for better readability */
   color: #444; /* Set main text color to a dark gray */
 }
 
-/* Set the font family for headers as Playfair Display */
+/* Headers styles */
 h1,
 h2,
 h3 {
@@ -21,101 +39,78 @@ h3 {
   color: #000; /* Set header text color to black */
 }
 
-/* Set the font size and style for superscripts in PDF export mode */
+/* Superscripts styles in PDF export mode */
 sup {
   font-size: 0.45rem; /* Make superscripts smaller */
   font-style: italic; /* Set superscripts to italic */
 }
 
-/* Avoid breaking within a section */
+/* Settings for sections */
 .blocks {
   break-inside: avoid; /* Prevent content breaks within sections */
 }
 
-/* Set the margins for the page */
-* {
-  --pagedjs-margin-right: 0.3in; /* Set right margin to 0.3 inches */
-  --pagedjs-margin-left: 0.2in; /* Set left margin to 0.2 inches */
-  --pagedjs-margin-top: .15in; /* Set top margin to 0.15 inches */
-  --pagedjs-margin-bottom: .15in; /* Set bottom margin to 0.15 inches */
+/* SUBSECTION: Right Sidebar */
+/* Set the width, line-height, font-size, and left-padding for the right sidebar */
+.aside {
+  width: calc(var(--sidebar-width) + 9px); /* Calculate width based on sidebar-width and add extra space */
+  line-height: 1.2; /* Set line-height for better readability */
+  font-size: 0.75rem; /* Set font-size for smaller text */
+  padding-left: 1rem; /* Increase left padding to add more space between the left border and text */
 }
 
-
-/* Customize some of the sizing variables */
-:root {
-  --sidebar-width: 19rem; /* Set the width of the right sidebar to 17rem */
-  --sidebar-background-color: #f2f7fd; /* Set the background color of the right sidebar to a light blue */
-  --sidebar-horizontal-padding: 0.1in; /* Set the horizontal padding for the right sidebar to the right page border */
-  --decorator-outer-dim: 10px; /* Set the size of position deliniating circles to 10px */
-  --decorator-border: 2px solid #bdd7e7; /* Set the color and width of the vertical timeline to a 2px solid light blue */
+/* Adjust the position of list items in the sidebar */
+.aside ul {
+  padding-left: 1rem; /* Add left padding to create space before the list items in the sidebar */
 }
 
-/* Set the spacing between sidebar headers */
+/* Remove fake list points in front of links in the sidebar */
+.aside li::before {
+  display: none; /* Hide the default list item marker in the sidebar */
+  position: relative;
+  margin-left: -4.25pt; /* Shift bullet points slightly to the left */
+  content: auto; /* Use the default content for list items */
+}
+
+/* Spacing and layout for the right sidebar */
 .aside .level2 {
-  margin-top: 0.4in; /* Increase the top margin to 0.4 inches to create more space between headers */
+  margin-top: 0.4in; /* Increase the top margin to create more space between headers */
 }
 
 .details .place {
-  margin-top: 0.25rem; /* Set the top margin for the .place element to 0.25rem */
+  margin-top: 0.25rem; /* Set the top margin for the .place element */
 }
 
 .main-block:not(.concise) .details div {
   padding-top: 0.005rem; /* Set a small padding-top for the .details div to separate content */
 }
 
-/* Center the laptop icon */
-.fa-laptop {
-  margin-left: -3px; /* Shift the laptop icon 3px to the left for better centering */
-}
-
-/* Apply decimal numbering to links at the bottom in a list */
+/* Decimal numbering for links in a list */
 #links li {
   list-style-type: decimal; /* Use decimal numbering for list items in the #links element */
 }
 
-/* Remove fake list points in front of links in the sidebar */
-.aside li::before {
-  display: none; /* Hide the default list item marker in the sidebar */
+/* Laptop icon adjustments */
+.fa-laptop {
+  margin-left: -3px; /* Shift the laptop icon to the left for better centering */
 }
-
-/* Adjust the position of list items in the sidebar */
-.aside ul {
-  padding-left: 1rem; /* Add 1rem of left padding to create space before the list items
-  in the sidebar */
-}
-
-/* Add custom bullet points in the sidebar */
-.aside li::before {
-  position: relative;
-  margin-left: -4.25pt; /* Shift bullet points slightly to the left */
-  content: "• "; /* Use a bullet character as the content */
-}
-
-/* Set the width, line-height, font-size, and left-padding for the right sidebar */
-.aside {
-  width: calc(var(--sidebar-width) + 9px); /* Calculate width based on sidebar-width and add 9px */
-  line-height: 1.2; /* Set line-height to 1.2 for better readability */
-  font-size: 0.75rem; /* Set font-size to 0.75rem for smaller text */
-  padding-left: 1rem; /* Increase left padding to 1.5rem to add more space between the left border and text */
-}
-
 
 /* Set the background color for the decorator */
 .decorator::after {
-  background-color: #08306b; /* Set the background color of circle outline to dark blue */
-}
-
-/* Remove the fake bullets from lists in the sidebar */
-.aside li::before {
-  content: auto; /* Use the default content for list items */
+  background-color: #08306b; /* Set the background color of circle outline */
 }
 
 .skill-bar {
-  color: white; /* Set skill-bar text color to white */
+  color: white; /* Set skill-bar text color */
   padding: 0.1rem 0.25rem; /* Set padding for skill-bar */
-  margin-top: 3px; /* Add a 3px top margin for spacing */
+  margin-top: 3px; /* Add a top margin for spacing */
   position: relative; /* Set position as relative */
   width: 100%; /* Set width to 100% */
+}
+
+/* Add padding below the title in sections with no-timeline class */
+.section.no-timeline h2 {
+  padding-bottom: 1rem; /* Add padding to the bottom of h2 elements for spacing */
 }
 
 /* Remove the after pseudo element from the header in sections with no-timeline class */
@@ -123,16 +118,11 @@ sup {
   content: none; /* Remove the pseudo element on h2 tags for sections with no-timeline class */
 }
 
-/* Add padding below the title in sections with no-timeline class */
-.section.no-timeline h2 {
-  padding-bottom: 1rem; /* Add 1rem padding to the bottom of h2 elements for spacing */
-}
-
 /* Add styles for info cards */
 .info-card {
-  width: 220px; /* Set info-card width to 220px */
+  width: 220px; /* Set info-card width */
   float: left; /* Float info cards to the left */
-  padding: 0.5rem; /* Add 0.5rem padding around info cards */
-  margin: 0.5rem; /* Add 0.5rem margin around info cards for spacing */
+  padding: 0.5rem; /* Add padding around info cards */
+  margin: 0.5rem; /* Add margin around info cards for spacing */
   box-shadow: 1px 1px 4px black; /* Add a subtle box-shadow to info cards for depth */
 }
