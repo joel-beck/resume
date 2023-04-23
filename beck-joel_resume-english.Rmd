@@ -22,7 +22,7 @@ Contact {#contact}
 
 <i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
-<i class="fas fa-phone"></i> 0171 1858260
+<!-- <i class="fas fa-phone"></i> 0171 1858260 -->
 
 <i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
 
