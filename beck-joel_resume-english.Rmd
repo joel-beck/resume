@@ -37,6 +37,8 @@ Programming {#programming}
 
   - Data Analysis + Modeling `Pandas`, `Scikit-Learn` & `PyTorch`
 
+  - Backend Development with `FastAPI` & `SQLModel`
+
   - Student Projects / Packages:
 
       - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
@@ -58,7 +60,9 @@ Programming {#programming}
 
 **Utilities**
 
-  - Typescript for Backend Development
+  - Typescript & Javascript Basics
+
+  - SQL Databases with SQLite
 
   - Git & CI/CD with GitHub Actions / GitLab CI
 
@@ -66,16 +70,10 @@ Programming {#programming}
 
 **Writing**
 
-  - Analysis and Tutorials with `[R]Markdown` & `Quarto`
+  - Documentation, Tutorials and Blog Posts with `[R]Markdown` & `Quarto`
 
   - Scientific Writing with `LaTeX`
 
-
-
-Languages {#language}
--------------------------------------------------------------------
-
-  - English: IELTS Score 8.0
 
 
 Scholarship {#scholarship}
