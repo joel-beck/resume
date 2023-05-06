@@ -70,7 +70,9 @@ Programming {#programming}
 
 **Writing**
 
-  - Documentation, Tutorials and Blog Posts with `[R]Markdown` & `Quarto`
+  - Documentation with `MkDocs`
+
+  - Blog Posts with `Quarto`
 
   - Scientific Writing with `LaTeX`
 
