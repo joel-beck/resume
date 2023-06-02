@@ -22,8 +22,6 @@ Kontakt {#contact}
 
 <i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
-<!-- <i class="fas fa-phone"></i> 0171 1858260 -->
-
 <i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
 
 <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
@@ -35,9 +33,11 @@ Programmieren {#programming}
 
 **Python**
 
-  - Datenanalyse + Modellierung mit `Pandas`, `Scikit-Learn` & `PyTorch`
+  - Datenanalyse mit `Pandas` & `Polars`
 
-  - Backend Entwicklung mit `FastAPI` & `SQLModel`
+  - Modellierung mit `Scikit-learn` & `PyTorch`
+
+  - NLP mit `SpaCy`, `Gensim` & `Transformers`
 
   - Student Projects / Packages:
 
@@ -64,13 +64,15 @@ Programmieren {#programming}
 
   - SQL Databases mit SQLite
 
-  - Git & CI/CD mit GitHub Actions / GitLab CI
+  - Backend Entwicklung mit `FastAPI` & `SQLModel`
+
+  - Git, GitHub Actions & Docker
 
 
 
 **Text**
 
-  - Documentation mit `MkDocs`
+  - Dokumentation mit `MkDocs`
 
   - Blog Posts mit `Quarto`
 
