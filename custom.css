@@ -3,8 +3,21 @@ see https://github.com/rstudio/pagedown/blob/2b46119f4a882aaa3b39e63229b0ce67d0a
 for a list with CSS options
 */
 
-/* Typography */
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap");
+/* SUBSECTION: Fonts */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
 
 /* SUBSECTION: Global Variables */
 :root {
