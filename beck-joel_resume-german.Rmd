@@ -115,7 +115,7 @@ seit 09/2020
 
 - Aktuelle Durchschnittsnote: 1,0 (Top 1%)
 - Schwerpunkte Machine Learning & Deep Learning
-- Masterarbeit in Natural Language Processing
+- Masterarbeit über Recommender Systems mit NLP
 
 
 ### Universität Mannheim
@@ -198,7 +198,7 @@ N/A
 
 06/2020 - 03/2020
 
-- Planung und Durchführung von Onlinekursen
+- Entwicklung und Durchführung von Onlinekursen
 - Schwerpunkte Statistik & Ökonometrie
 
 

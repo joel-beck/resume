@@ -115,7 +115,7 @@ since 09/2020
 
 - Current Average Grade: 1.0 (Top 1%)
 - Focus on Machine Learning & Deep Learning
-- Master's Thesis in Natural Language Processing
+- Master's Thesis about Recommender Systems with NLP
 
 
 ### University of Mannheim
@@ -198,7 +198,7 @@ N/A
 
 06/2020 - 03/2020
 
-- Preparation and Teaching of Online Courses
+- Development and Teaching of Online Courses
 - Focus on Statistics & Econometrics
 
 
