@@ -16,7 +16,6 @@ Aside
 ================================================================================
 
 
-
 Kontakt {#contact}
 --------------------------------------------------------------------------------
 
@@ -28,64 +27,53 @@ Kontakt {#contact}
 
 
 
-Programmieren {#programming}
+Projekte {#projekte}
 -------------------------------------------------------------------
 
 **Python**
 
-  - Datenanalyse mit `Pandas` & `Polars`
+  - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
 
-  - Modellierung mit `Scikit-learn` & `PyTorch`
+    - NLP mit `SpaCy`, `Gensim` & `Transformers`
 
-  - NLP mit `SpaCy`, `Gensim` & `Transformers`
+    - Data Transformation mit `Polars`
 
-  - Student Projects / Packages:
+    - Clean Code, Unit Tests mit `pytest` & [Dokumentation](https://joel-beck.github.io/readnext/) mit `MkDocs`
 
-      - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+  - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
-      - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
+    - Modellierung mit `Scikit-Learn` & `PyTorch`
+
+    - Datenanalyse mit `Pandas`
+
+    - Abschlussbericht in `LaTeX` verfasst
 
 
 **R**
 
-  - Datenanalyse + Modellierung mit `Tidyverse` & `Tidymodels`
+  - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
-  - Student Projects / Packages:
+    - Heavy use of `Tidyverse` packages
 
-      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
+    - Abschlussbericht in `RMarkdown` verfasst
 
-      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+  - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+
+    - OOP mit S3 Klassen
+
+    - Unit Tests mit `testthat` & Dokumentation mit `roxygen2`
 
 
+Skills {#skills}
+-------------------------------------------------------------------
 
-**Utilities**
+  - Git, GitHub Actions / GitLab CI & Docker
 
   - Typescript & Javascript Basics
 
   - SQL Databases mit SQLite
 
-  - Backend Entwicklung mit `FastAPI` & `SQLModel`
-
-  - Git, GitHub Actions & Docker
-
-
-
-**Text**
-
-  - Dokumentation mit `MkDocs`
-
-  - Blog Posts mit `Quarto`
-
-  - Wissenschaftliches Schreiben mit `LaTeX`
-
-
-
-Stipendium {#scholarship}
--------------------------------------------------------------------
-
-  - Stiftung der deutschen Wirtschaft seit 2016
-
-
+  - Backend Entwicklung in Python mit `FastAPI` & `SQLModel`
 
 
 
@@ -118,6 +106,15 @@ seit 09/2020
 - Masterarbeit über Recommender Systems mit NLP
 
 
+### University of Oslo
+
+ERASMUS Auslandssemester
+
+N/A
+
+12/2018 - 08/2018
+
+
 ### Universität Mannheim
 
 Bachelor of Science: Wirtschaftsmathematik
@@ -130,16 +127,7 @@ N/A
 - Schwerpunkte Stochastik und Optimierung
 
 
-### University of Oslo
-
-ERASMUS Auslandssemester
-
-N/A
-
-12/2018 - 08/2018
-
-
-### Ludwigsgymnasium Saarbrücken
+<!-- ### Ludwigsgymnasium Saarbrücken
 
 Abitur
 
@@ -147,10 +135,9 @@ N/A
 
 07/2015 - 09/2007
 
-- Abschlussnote: 1,0
+- Abschlussnote: 1,0 -->
 
 
-<br> <!-- vergrößert Abstand -->
 
 
 
@@ -166,12 +153,12 @@ N/A
 01/2023 - 11/2022
 
 - Datenaufbereitung, Feature Engineering, Modellierung und Design bzw. Infrastruktur von Projekten
-- Blogbeiträge über das `Tidyverse` und die `Pandas` Bibliothek
+- Veröffentlichung von Blogbeiträgen über das [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) und die Pandas Bibliothek
 
 
 ### Tutorenstelle Göttingen
 
-Lehrstuhl für Ökonometrie
+Masterkurs Econometrics I
 
 N/A
 
@@ -198,18 +185,29 @@ N/A
 
 06/2020 - 03/2020
 
-- Entwicklung und Durchführung von Onlinekursen
-- Schwerpunkte Statistik & Ökonometrie
+- Entwicklung und Durchführung von Onlinekursen über Statistik & Ökonometrie
 
 
 
 ### Tutorenstelle Mannheim
 
-Lehrstuhl für Wahrscheinlichkeitstheorie
+Bachelorkurs Wahrscheinlichkeitstheorie
 
 N/A
 
 2020 - 2018
 
 
-<br> <!-- verlängert blaue timeline -->
+
+Stipendium {data-icon=award}
+-------------------------------------------------------------------
+
+### Stiftung der deutschen Wirtschaft
+
+N/A
+
+N/A
+
+2023 - 2016
+
+  - Verliehen für akademische Leistungen und soziales Engagement

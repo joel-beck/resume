@@ -16,7 +16,6 @@ Aside
 ================================================================================
 
 
-
 Contact {#contact}
 --------------------------------------------------------------------------------
 
@@ -28,64 +27,53 @@ Contact {#contact}
 
 
 
-Programming {#programming}
+Projects {#projects}
 -------------------------------------------------------------------
 
 **Python**
 
-  - Data Analysis with `Pandas` & `Polars`
+  - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
 
-  - Modeling with `Scikit-Learn` & `PyTorch`
+    - NLP with `SpaCy`, `Gensim` & `Transformers`
 
-  - NLP with `SpaCy`, `Gensim` & `Transformers`
+    - Data Transformation with `Polars`
 
-  - Student Projects / Packages:
+    - Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
 
-      - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+  - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
-      - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
+    - Modeling with `Scikit-Learn` & `PyTorch`
+
+    - Data Analysis with `Pandas`
+
+    - Term Paper written in `LaTeX`
 
 
 **R**
 
-  - Data Analysis + Modeling with `Tidyverse` & `Tidymodels`
+  - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
-  - Student Projects / Packages:
+    - Heavy use of `Tidyverse` packages
 
-      - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
+    - Term Paper written in `RMarkdown`
 
-      - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+  - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+
+    - OOP with S3 classes
+
+    - Unit testing with `testthat` & Documentation with `roxygen2`
 
 
+Skills {#skills}
+-------------------------------------------------------------------
 
-**Utilities**
+  - Git, GitHub Actions / GitLab CI & Docker
 
   - Typescript & Javascript Basics
 
   - SQL Databases with SQLite
 
-  - Backend Development with `FastAPI` & `SQLModel`
-
-  - Git, GitHub Actions & Docker
-
-
-
-**Writing**
-
-  - Documentation with `MkDocs`
-
-  - Blog Posts with `Quarto`
-
-  - Scientific Writing with `LaTeX`
-
-
-
-Scholarship {#scholarship}
--------------------------------------------------------------------
-
-  - Stiftung der deutschen Wirtschaft since 2016
-
-
+  - Backend Development in Python with `FastAPI` & `SQLModel`
 
 
 
@@ -111,11 +99,20 @@ Master of Science: Applied Statistics
 
 N/A <!-- do not display location marker -->
 
-since 09/2020
+09/2023 - 09/2020
 
 - Current Average Grade: 1.0 (Top 1%)
 - Focus on Machine Learning & Deep Learning
 - Master's Thesis about Recommender Systems with NLP
+
+
+### University of Oslo
+
+ERASMUS Study Abroad
+
+N/A
+
+12/2018 - 08/2018
 
 
 ### University of Mannheim
@@ -129,17 +126,10 @@ N/A
 - Overall Grade: 1.2 (Top 10%)
 - Focus on Stochastics und Optimization
 
-
-### University of Oslo
-
-ERASMUS Study Abroad
-
-N/A
-
-12/2018 - 08/2018
+<!-- <br> vergrößert Abstand -->
 
 
-### Ludwigsgymnasium Saarbrücken
+<!-- ### Ludwigsgymnasium Saarbrücken
 
 Abitur
 
@@ -147,10 +137,7 @@ N/A
 
 07/2015 - 09/2007
 
-- Overall Grade: 1.0
-
-
-<br> <!-- vergrößert Abstand -->
+- Overall Grade: 1.0 -->
 
 
 
@@ -165,13 +152,13 @@ N/A
 
 01/2023 - 11/2022
 
-- Data Preprocessing, Feature Engineering, Modeling and Design/Infrastructure of Projects
-- Blog Posts about the `Tidyverse` and the `Pandas` Library
+- Data Preprocessing, Feature Engineering, Modeling & Design/Infrastructure of Projects
+- Publication of Blog Posts about the [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) & Pandas
 
 
 ### Teaching Assistant Göttingen
 
-Chair for Econometrics
+Master's course Econometrics I
 
 N/A
 
@@ -198,18 +185,29 @@ N/A
 
 06/2020 - 03/2020
 
-- Development and Teaching of Online Courses
-- Focus on Statistics & Econometrics
+- Development and Teaching of Online Courses about Statistics & Econometrics
 
 
 
 ### Teaching Assistant Mannheim
 
-Chair for Probability Theory
+Bachelor's course Probability Theory
 
 N/A
 
 2020 - 2018
 
 
-<br> <!-- verlängert blaue timeline -->
+
+Scholarship {data-icon=award}
+-------------------------------------------------------------------
+
+### Stiftung der deutschen Wirtschaft
+
+N/A
+
+N/A
+
+2023 - 2016
+
+  - Awarded for academic achievements and social engagement
