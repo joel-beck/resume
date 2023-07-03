@@ -51,7 +51,7 @@ Projects {#projects}
 
 **R**
 
-  - [postforecasts](https://github.com/nikosbosse/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
+  - [postforecasts](https://github.com/joel-beck/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
 
     - Heavy use of `Tidyverse` packages
 
