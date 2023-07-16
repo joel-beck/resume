@@ -46,8 +46,6 @@ Projekte {#projekte}
 
     - Datenanalyse mit `Pandas`
 
-    - Abschlussbericht in `LaTeX` verfasst
-
 
 **R**
 
@@ -55,25 +53,27 @@ Projekte {#projekte}
 
     - Heavy use of `Tidyverse` packages
 
-    - Abschlussbericht in `RMarkdown` verfasst
 
   - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
 
-    - OOP mit S3 Klassen
-
-    - Unit Tests mit `testthat` & Dokumentation mit `roxygen2`
+    - OOP mit S3 Klassen & Unit Tests mit `testthat`
 
 
 Skills {#skills}
 -------------------------------------------------------------------
 
-  - Git, GitHub Actions / GitLab CI & Docker
+  - 3 Jahre Erfahrung mit Python, R & Git
 
-  - Typescript & Javascript Basics
+  - 3 Jahre Erfahrung mit RMarkdown (jetzt Quarto) & LaTeX
 
-  - SQL Databases mit SQLite
+  - 1 Jahr Erfahrung mit SQL (SQLite)
 
-  - Backend Entwicklung in Python mit `FastAPI` & `SQLModel`
+  - 6 Monate Erfahrung mit Typescript & Javascript
+
+  - CI/CD (Github Actions, GitLab CI) & Docker
+
+  - Backend Entwicklung in Python mit `FastAPI`
+
 
 
 
@@ -85,6 +85,64 @@ Main
 
 Joel Beck {#title}
 ---------------------------------------------------------------------------------
+
+
+Praxiserfahrung {data-icon=chalkboard-teacher}
+---------------------------------------------------------------------------------
+
+### Praktikum: Data Scientist
+
+eoda GmbH Kassel
+
+N/A
+
+01/2023 - 11/2022
+
+- Entwicklung von MLOps Prozessen und Einführung von Unit Tests
+- Entwicklung von Prognosemodellen mit `Scikit-Learn` & `Tidymodels`
+- Veröffentlichung von Blogbeiträgen über das [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) und die Pandas Bibliothek
+
+
+### Tutorenstelle Göttingen
+
+Masterkurs Econometrics I
+
+N/A
+
+09/2022 - 10/2021
+
+
+### Hiwi-Job Göttingen
+
+Lehrstuhl für Statistik
+
+N/A
+
+04/2022 - 04/2021
+
+- Entwicklung und Dokumentation von [Liesel](https://github.com/liesel-devs/liesel), \
+ein R & Python Framework für Bayesian Regressionsmodelle
+
+
+### Praktikum: Content Creator
+
+Studybees GmbH Mannheim
+
+N/A
+
+06/2020 - 03/2020
+
+- Entwicklung und Durchführung von Onlinekursen über Statistik & Ökonometrie
+
+
+
+### Tutorenstelle Mannheim
+
+Bachelorkurs Wahrscheinlichkeitstheorie
+
+N/A
+
+2020 - 2018
 
 
 
@@ -139,75 +197,13 @@ N/A
 
 
 
-
-
-Praxiserfahrung {data-icon=chalkboard-teacher}
----------------------------------------------------------------------------------
-
-### Praktikum: Data Scientist
-
-eoda GmbH Kassel
-
-N/A
-
-01/2023 - 11/2022
-
-- Datenaufbereitung, Feature Engineering, Modellierung und Design bzw. Infrastruktur von Projekten
-- Veröffentlichung von Blogbeiträgen über das [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) und die Pandas Bibliothek
-
-
-### Tutorenstelle Göttingen
-
-Masterkurs Econometrics I
-
-N/A
-
-09/2022 - 10/2021
-
-
-### Hiwi-Job Göttingen
-
-Lehrstuhl für Statistik
-
-N/A
-
-04/2022 - 04/2021
-
-- Entwicklung und Dokumentation von [Liesel](https://github.com/liesel-devs/liesel), \
-ein R & Python Framework für Bayesian Regressionsmodelle
-
-
-### Praktikum: Content Creator
-
-Studybees GmbH Mannheim
-
-N/A
-
-06/2020 - 03/2020
-
-- Entwicklung und Durchführung von Onlinekursen über Statistik & Ökonometrie
-
-
-
-### Tutorenstelle Mannheim
-
-Bachelorkurs Wahrscheinlichkeitstheorie
-
-N/A
-
-2020 - 2018
-
-
-
 Stipendium {data-icon=award}
 -------------------------------------------------------------------
 
 ### Stiftung der deutschen Wirtschaft
 
-N/A
+Verliehen für akademische Leistungen und soziales Engagement
 
 N/A
 
 2023 - 2016
-
-  - Verliehen für akademische Leistungen und soziales Engagement

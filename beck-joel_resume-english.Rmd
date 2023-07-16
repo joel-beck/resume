@@ -46,8 +46,6 @@ Projects {#projects}
 
     - Data Analysis with `Pandas`
 
-    - Term Paper written in `LaTeX`
-
 
 **R**
 
@@ -55,25 +53,27 @@ Projects {#projects}
 
     - Heavy use of `Tidyverse` packages
 
-    - Term Paper written in `RMarkdown`
 
   - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
 
-    - OOP with S3 classes
-
-    - Unit testing with `testthat` & Documentation with `roxygen2`
+    - OOP with S3 classes, unit testing with `testthat`
 
 
 Skills {#skills}
 -------------------------------------------------------------------
 
-  - Git, GitHub Actions / GitLab CI & Docker
+  - 3 years of experience with Python, R & Git
 
-  - Typescript & Javascript Basics
+  - 3 years of experience with RMarkdown (now Quarto) & LaTeX
 
-  - SQL Databases with SQLite
+  - 1 year of experience with SQL (SQLite)
 
-  - Backend Development in Python with `FastAPI` & `SQLModel`
+  - 6 months of experience with Typescript & Javascript
+
+  - CI/CD (GitHub Actions / GitLab CI) & Docker
+
+  - Backend Development in Python with `FastAPI`
+
 
 
 
@@ -87,60 +87,6 @@ Joel Beck {#title}
 ---------------------------------------------------------------------------------
 
 
-
-
-Education {data-icon=graduation-cap data-concise=true}
----------------------------------------------------------------------------------
-
-
-### Georg - August - University Göttingen
-
-Master of Science: Applied Statistics
-
-N/A <!-- do not display location marker -->
-
-09/2023 - 09/2020
-
-- Current Average Grade: 1.0 (Top 1%)
-- Focus on Machine Learning & Deep Learning
-- Master's Thesis about Recommender Systems with NLP
-
-
-### University of Oslo
-
-ERASMUS Study Abroad
-
-N/A
-
-12/2018 - 08/2018
-
-
-### University of Mannheim
-
-Bachelor of Science: Business Mathematics
-
-N/A
-
-03/2020 - 09/2016 <!-- timeline order from bottom to top -->
-
-- Overall Grade: 1.2 (Top 10%)
-- Focus on Stochastics und Optimization
-
-<!-- <br> vergrößert Abstand -->
-
-
-<!-- ### Ludwigsgymnasium Saarbrücken
-
-Abitur
-
-N/A
-
-07/2015 - 09/2007
-
-- Overall Grade: 1.0 -->
-
-
-
 Work Experience {data-icon=chalkboard-teacher}
 ---------------------------------------------------------------------------------
 
@@ -152,8 +98,9 @@ N/A
 
 01/2023 - 11/2022
 
-- Data Preprocessing, Feature Engineering, Modeling & Design/Infrastructure of Projects
-- Publication of Blog Posts about the [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) & Pandas
+- Contributed to MLOps Processes and introduced Unit Testing
+- Built Prediction Models with `Scikit-Learn` & `Tidymodels`
+- Published Blog Posts about the [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) & Pandas
 
 
 ### Teaching Assistant Göttingen
@@ -199,15 +146,63 @@ N/A
 
 
 
+Education {data-icon=graduation-cap data-concise=true}
+---------------------------------------------------------------------------------
+
+
+### Georg - August - University Göttingen
+
+Master of Science: Applied Statistics
+
+N/A <!-- do not display location marker -->
+
+09/2023 - 09/2020
+
+- Current Average Grade: 1.0 (Top 1%)
+- Focus on Machine Learning & Deep Learning
+- Master's Thesis about Recommender Systems with NLP
+
+
+### University of Oslo
+
+ERASMUS Study Abroad
+
+N/A
+
+12/2018 - 08/2018
+
+
+### University of Mannheim
+
+Bachelor of Science: Business Mathematics
+
+N/A
+
+03/2020 - 09/2016 <!-- timeline order from bottom to top -->
+
+- Overall Grade: 1.2 (Top 10%)
+- Focus on Stochastics und Optimization
+
+
+<!-- ### Ludwigsgymnasium Saarbrücken
+
+Abitur
+
+N/A
+
+07/2015 - 09/2007
+
+- Overall Grade: 1.0 -->
+
+
+
 Scholarship {data-icon=award}
 -------------------------------------------------------------------
 
 ### Stiftung der deutschen Wirtschaft
 
-N/A
+Awarded for academic achievements and social engagement
 
 N/A
 
 2023 - 2016
-
-  - Awarded for academic achievements and social engagement
