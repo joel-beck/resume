@@ -11,77 +11,76 @@ output:
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
 
+<!-- display right side bar only on first page -->
+
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+```
 
 Aside
 ================================================================================
-
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 <i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
-<i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
+<i class="fab fa-github"></i> [github.com/joel-beck](https://github.com/joel-beck)
 
-<i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
+<i class="fab fa-linkedin"></i> [linkedin.com/joelbeck07](https://www.linkedin.com/in/joelbeck07)
 
 
 
-Projects {#projects}
+Languages {#languages}
 -------------------------------------------------------------------
 
-**Python**
+  - Python (3 years)
 
-  - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+  - R (3 years)
 
-    - NLP with `SpaCy`, `Gensim` & `Transformers`
+  - SQL with SQLite (1 year)
 
-    - Data Transformation with `Polars`
-
-    - Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
-
-  - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
-
-    - Modeling with `Scikit-Learn` & `PyTorch`
-
-    - Data Analysis with `Pandas`
+  - Typescript & Javascript (6 months)
 
 
-**R**
-
-  - [postforecasts](https://github.com/joel-beck/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
-
-    - Heavy use of `Tidyverse` packages
-
-
-  - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
-
-    - OOP with S3 classes, unit testing with `testthat`
-
-
-Skills {#skills}
+Workflow {#workflow}
 -------------------------------------------------------------------
 
-  - 3 years of experience with Python, R & Git
+  - Git
 
-  - 3 years of experience with RMarkdown (now Quarto) & LaTeX
+  - CI/CD with GitHub Actions & GitLab CI
 
-  - 1 year of experience with SQL (SQLite)
+  - Docker
 
-  - 6 months of experience with Typescript & Javascript
 
-  - CI/CD (GitHub Actions / GitLab CI) & Docker
+Writing {#writing}
+-------------------------------------------------------------------
 
-  - Backend Development in Python with `FastAPI`
+  - Markdown
 
+  - RMarkdown / Quarto
+
+  - LaTeX
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with [pagedown](https://github.com/rstudio/pagedown).
+
+Source code: <br>[github.com/joel-beck/resume](https://github.com/joel-beck/resume).
+
+Last updated on `r Sys.Date()`.
 
 
 
 Main
 ================================================================================
-
-
-
 
 Joel Beck {#title}
 ---------------------------------------------------------------------------------
@@ -135,20 +134,26 @@ N/A
 - Development and Teaching of Online Courses about Statistics & Econometrics
 
 
-
 ### Teaching Assistant Mannheim
 
 Bachelor's course Probability Theory
 
 N/A
 
-2020 - 2018
+03/2020 - 09/2018
 
+
+### Voluntary Year of Social Service Saarbrücken
+
+Assistant Sports Coach for children between 1 and 16 years
+
+N/A
+
+08/2016 - 08/2015
 
 
 Education {data-icon=graduation-cap data-concise=true}
 ---------------------------------------------------------------------------------
-
 
 ### Georg - August - University Göttingen
 
@@ -184,7 +189,7 @@ N/A
 - Focus on Stochastics und Optimization
 
 
-<!-- ### Ludwigsgymnasium Saarbrücken
+### Ludwigsgymnasium Saarbrücken
 
 Abitur
 
@@ -192,7 +197,7 @@ N/A
 
 07/2015 - 09/2007
 
-- Overall Grade: 1.0 -->
+- Overall Grade: 1.0 (Top 1%)
 
 
 
@@ -206,3 +211,79 @@ Awarded for academic achievements and social engagement
 N/A
 
 2023 - 2016
+
+
+Projects {data-icon=code}
+--------------------------------------------------------------------
+
+### readnext (Python)
+
+Hybrid Recommender System for Computer Science Papers
+
+N/A
+
+2023
+
+- NLP with `SpaCy`, `Gensim` & `Transformers
+- Data Transformation with `Polars
+- Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
+- Source Code: [github.com/joel-beck/readnext](https://github.com/joel-beck/readnext)
+
+
+### airbnb-oslo (Python)
+
+Price Prediction Models for Airbnb Apartments in Oslo
+
+N/A
+
+2022
+
+- Modeling with `Scikit-Learn` & `PyTorch`
+- Data Analysis with `Pandas`
+- Source Code: [github.com/joel-beck/airbnb-oslo](https://github.com/joel-beck/airbnb-oslo)
+
+
+### postforecasts (R)
+
+Post-Processing Methods for Covid-19 Forecasts
+
+N/A
+
+2022
+
+- Heavy use of `Tidyverse` packages
+- Source Code: [github.com/joel-beck/post-processing-forecasts](https://github.com/joel-beck/post-processing-forecasts)
+
+
+### asp21bridge (R)
+
+Bayesian MCMC Sampler with Ridge Penalty
+
+N/A
+
+2021
+
+- OOP with S3 classes, unit testing with `testthat`
+- Source Code: [github.com/joel-beck/asp21bridge](https://github.com/joel-beck/asp21bridge)
+
+
+### shrtcts (R)
+
+Configuration Files for the [shrtcts](https://pkg.garrickadenbuie.com/shrtcts/) R Package
+
+N/A
+
+2022
+
+- Source Code: [github.com/joel-beck/shrtcts-mac](https://github.com/joel-beck/shrtcts-mac)
+
+
+### drafts (Typescript)
+
+User Scripts for the [Drafts](https://getdrafts.com) App
+
+N/A
+
+2023
+
+- Source Code: [github.com/joel-beck/drafts-scripts](https://github.com/joel-beck/drafts-scripts)

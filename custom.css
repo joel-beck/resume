@@ -1,6 +1,6 @@
 /*
-see https://github.com/rstudio/pagedown/blob/2b46119f4a882aaa3b39e63229b0ce67d0a38f3e/inst/resources/css/resume.css#L3
-for a list with CSS options
+see https://github.com/rstudio/pagedown/blob/2b46119f4a882aaa3b39e63229b0ce67d0a38f3e/inst/resources/css/resume.css
+for the original pagedown resume css
 */
 
 /* SUBSECTION: Fonts */
@@ -21,7 +21,7 @@ for a list with CSS options
 
 /* SUBSECTION: Global Variables */
 :root {
-  --sidebar-width: 19rem; /* Set the width of the right sidebar */
+  --sidebar-width: 15rem; /* Set the width of the right sidebar */
   --sidebar-background-color: #f2f7fd; /* Set the background color of the right sidebar */
   --sidebar-horizontal-padding: 0.1in; /* Set the horizontal padding for the right sidebar to the right page border */
   --decorator-outer-dim: 10px; /* Set the size of position deliniating circles */
@@ -36,7 +36,7 @@ for a list with CSS options
   --pagedjs-margin-bottom: .15in; /* Set bottom margin */
 }
 
-/* Main text styles */
+/* SUBSECTION: Main Section */
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300; /* Set font-weight to a lighter value */
@@ -75,6 +75,7 @@ sup {
 /* Adjust the position of list items in the sidebar */
 .aside ul {
   padding-left: 1rem; /* Add left padding to create space before the list items in the sidebar */
+  marker: "•"; /* Set the marker for list items in the sidebar */
 }
 
 /* Remove fake list points in front of links in the sidebar */
@@ -87,7 +88,14 @@ sup {
 
 /* Spacing and layout for the right sidebar */
 .aside .level2 {
-  margin-top: 0.4in; /* Increase the top margin to create more space between headers */
+  margin-top: 0.3in; /* Increase space between headers in sidebar */
+  font-size: 0.75rem; /* Make font-size of headers in sidebar smaller */
+}
+
+/* Make the text in the Disclaimer section left aligned */
+#disclaimer {
+  text-align: left;
+  padding-left: 0; /* Remove padding on the left side */
 }
 
 .details .place {
@@ -96,11 +104,6 @@ sup {
 
 .main-block:not(.concise) .details div {
   padding-top: 0.005rem; /* Set a small padding-top for the .details div to separate content */
-}
-
-/* Decimal numbering for links in a list */
-#links li {
-  list-style-type: decimal; /* Use decimal numbering for list items in the #links element */
 }
 
 /* Laptop icon adjustments */
@@ -113,14 +116,6 @@ sup {
   background-color: #08306b; /* Set the background color of circle outline */
 }
 
-.skill-bar {
-  color: white; /* Set skill-bar text color */
-  padding: 0.1rem 0.25rem; /* Set padding for skill-bar */
-  margin-top: 3px; /* Add a top margin for spacing */
-  position: relative; /* Set position as relative */
-  width: 100%; /* Set width to 100% */
-}
-
 /* Add padding below the title in sections with no-timeline class */
 .section.no-timeline h2 {
   padding-bottom: 1rem; /* Add padding to the bottom of h2 elements for spacing */
@@ -129,13 +124,4 @@ sup {
 /* Remove the after pseudo element from the header in sections with no-timeline class */
 .section.no-timeline h2::after {
   content: none; /* Remove the pseudo element on h2 tags for sections with no-timeline class */
-}
-
-/* Add styles for info cards */
-.info-card {
-  width: 220px; /* Set info-card width */
-  float: left; /* Float info cards to the left */
-  padding: 0.5rem; /* Add padding around info cards */
-  margin: 0.5rem; /* Add margin around info cards for spacing */
-  box-shadow: 1px 1px 4px black; /* Add a subtle box-shadow to info cards for depth */
 }
