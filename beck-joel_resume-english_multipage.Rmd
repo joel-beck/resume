@@ -224,8 +224,8 @@ N/A
 
 2023
 
-- NLP with `SpaCy`, `Gensim` & `Transformers
-- Data Transformation with `Polars
+- NLP with `SpaCy`, `Gensim` & `Transformers`
+- Data Transformation with `Polars`
 - Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
 - Source Code: [github.com/joel-beck/readnext](https://github.com/joel-beck/readnext)
 
