@@ -40,6 +40,7 @@ Projects {#projects}
 
     - Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
 
+
   - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
     - Modeling with `Scikit-Learn` & `PyTorch`
@@ -57,6 +58,7 @@ Projects {#projects}
   - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
 
     - OOP with S3 classes, unit testing with `testthat`
+
 
 
 Skills {#skills}
@@ -185,18 +187,6 @@ N/A
 
 - Overall Grade: 1.2 (Top 10%)
 - Focus on Stochastics und Optimization
-
-
-<!-- ### Ludwigsgymnasium Saarbrücken
-
-Abitur
-
-N/A
-
-07/2015 - 09/2007
-
-- Overall Grade: 1.0 (Top 1%) -->
-
 
 
 Scholarship {data-icon=award}
