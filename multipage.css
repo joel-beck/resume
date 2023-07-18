@@ -1,0 +1,15 @@
+:root {
+    --sidebar-width: 15rem; /* Set the width of the right sidebar */
+  }
+
+/* Make the text in the Disclaimer section left aligned */
+#disclaimer {
+    text-align: left;
+    padding-left: 0; /* Remove padding on the left side */
+  }
+
+/* Fontawesome icons adjustments */
+
+.fa-code {
+margin-left: -3px; /* Shift the code icon to the left for better centering */
+}

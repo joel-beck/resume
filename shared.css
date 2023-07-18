@@ -1,0 +1,120 @@
+/*
+see https://github.com/rstudio/pagedown/blob/2b46119f4a882aaa3b39e63229b0ce67d0a38f3e/inst/resources/css/resume.css
+for the original pagedown resume css
+*/
+
+/* SUBSECTION: Fonts */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+
+/* SUBSECTION: Global Variables */
+:root {
+  --sidebar-background-color: #f2f7fd; /* Set the background color of the right sidebar */
+  --sidebar-horizontal-padding: 0.1in; /* Set the horizontal padding for the right sidebar to the right page border */
+  --decorator-outer-dim: 10px; /* Set the size of position deliniating circles */
+  --decorator-border: 2px solid #bdd7e7; /* Set the color and width of the vertical timeline */
+}
+
+/* Page margins settings */
+* {
+  --pagedjs-margin-right: 0.3in; /* Set right margin */
+  --pagedjs-margin-left: 0.2in; /* Set left margin */
+  --pagedjs-margin-top: .15in; /* Set top margin */
+  --pagedjs-margin-bottom: .15in; /* Set bottom margin */
+}
+
+/* SUBSECTION: Main Section */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300; /* Set font-weight to a lighter value */
+  line-height: 1.3; /* Set line-height for better readability */
+  color: #444; /* Set main text color to a dark gray */
+}
+
+/* Headers styles */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #000; /* Set header text color to black */
+}
+
+/* Superscripts styles in PDF export mode */
+sup {
+  font-size: 0.45rem; /* Make superscripts smaller */
+  font-style: italic; /* Set superscripts to italic */
+}
+
+/* Settings for sections */
+.blocks {
+  break-inside: avoid; /* Prevent content breaks within sections */
+}
+
+/* SUBSECTION: Right Sidebar */
+/* Set the width, line-height, font-size, and left-padding for the right sidebar */
+.aside {
+  width: calc(var(--sidebar-width) + 9px); /* Calculate width based on sidebar-width and add extra space */
+  line-height: 1.2; /* Set line-height for better readability */
+  font-size: 0.75rem; /* Set font-size for smaller text */
+  padding-left: 1rem; /* Increase left padding to add more space between the left border and text */
+}
+
+/* Adjust the position of list items in the sidebar */
+.aside ul {
+  padding-left: 1rem; /* Add left padding to create space before the list items in the sidebar */
+  marker: "•"; /* Set the marker for list items in the sidebar */
+}
+
+/* Remove fake list points in front of links in the sidebar */
+.aside li::before {
+  display: auto; /* Use the default display for list items */
+  position: relative;
+  margin-left: -4.25pt; /* Shift bullet points slightly to the left */
+  content: auto; /* Use the default content for list items */
+}
+
+/* Spacing and layout for the right sidebar */
+.aside .level2 {
+  margin-top: 0.3in; /* Increase space between headers in sidebar */
+  font-size: 0.75rem; /* Make font-size of headers in sidebar smaller */
+}
+
+.details .place {
+  margin-top: 0.25rem; /* Set the top margin for the .place element */
+}
+
+.main-block:not(.concise) .details div {
+  padding-top: 0.005rem; /* Set a small padding-top for the .details div to separate content */
+}
+
+/* Fontawesome icons adjustments */
+.fa-award {
+  margin-left: 1px; /* Shift the award icon to the left for better centering */
+}
+
+/* Set the background color for the decorator */
+.decorator::after {
+  background-color: #08306b; /* Set the background color of circle outline */
+}
+
+/* Add padding below the title in sections with no-timeline class */
+.section.no-timeline h2 {
+  padding-bottom: 1rem; /* Add padding to the bottom of h2 elements for spacing */
+}
+
+/* Remove the after pseudo element from the header in sections with no-timeline class */
+.section.no-timeline h2::after {
+  content: none; /* Remove the pseudo element on h2 tags for sections with no-timeline class */
+}

@@ -4,7 +4,7 @@ author: "Joel Beck"
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
-    css: ['custom.css', 'resume']
+    css: ["multipage.css", "shared.css", "resume"]
     self_contained: TRUE
   xaringan::moon_reader:
     self_contained: TRUE
