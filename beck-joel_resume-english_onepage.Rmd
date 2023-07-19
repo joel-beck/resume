@@ -6,8 +6,6 @@ output:
   pagedown::html_resume:
     css: ["onepage.css", "shared.css", "resume"]
     self_contained: TRUE
-  xaringan::moon_reader:
-    self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
 
@@ -40,6 +38,7 @@ Projects {#projects}
 
     - Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
 
+
   - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
     - Modeling with `Scikit-Learn` & `PyTorch`
@@ -59,6 +58,7 @@ Projects {#projects}
     - OOP with S3 classes, unit testing with `testthat`
 
 
+
 Skills {#skills}
 -------------------------------------------------------------------
 
@@ -70,11 +70,15 @@ Skills {#skills}
 
   - Typescript & Javascript (6 months)
 
-  - Git & CI/CD with GitHub Actions
+  - Git
+
+  - CI/CD with Github Actions & Gitlab CI
 
   - Docker
 
-  - Markdown, RMarkdown / Quarto & LaTeX
+  - Markdown, RMarkdown & Quarto
+
+  - LaTeX
 
 
 
@@ -135,14 +139,13 @@ N/A
 - Development and Teaching of Online Courses about Statistics & Econometrics
 
 
-
 ### Teaching Assistant Mannheim
 
 Bachelor's course Probability Theory
 
 N/A
 
-2020 - 2018
+03/2020 - 09/2018
 
 
 
@@ -182,18 +185,6 @@ N/A
 
 - Overall Grade: 1.2 (Top 10%)
 - Focus on Stochastics und Optimization
-
-
-<!-- ### Ludwigsgymnasium Saarbrücken
-
-Abitur
-
-N/A
-
-07/2015 - 09/2007
-
-- Overall Grade: 1.0 (Top 1%) -->
-
 
 
 Scholarship {data-icon=award}

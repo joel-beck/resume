@@ -6,82 +6,78 @@ output:
   pagedown::html_resume:
     css: ["multipage.css", "shared.css", "resume"]
     self_contained: TRUE
-  xaringan::moon_reader:
-    self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
 
+<!-- display right side bar only on first page -->
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+```
 
 Aside
 ================================================================================
-
 
 Kontakt {#contact}
 --------------------------------------------------------------------------------
 
 <i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
-<i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
+<i class="fab fa-github"></i> [github.com/joel-beck](https://github.com/joel-beck)
 
-<i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
+<i class="fab fa-linkedin"></i> [linkedin.com/joelbeck07](https://www.linkedin.com/in/joelbeck07)
 
 
 
-Projekte {#projekte}
+Sprachen {#languages}
 -------------------------------------------------------------------
 
-**Python**
+  - Python (3 Jahre)
 
-  - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+  - R (3 Jahre)
 
-    - NLP mit `SpaCy`, `Gensim` & `Transformers`
+  - SQL with SQLite (1 Jahr)
 
-    - Data Transformation mit `Polars`
-
-    - Clean Code, Unit Tests mit `pytest` & [Dokumentation](https://joel-beck.github.io/readnext/) mit `MkDocs`
-
-  - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
-
-    - Modellierung mit `Scikit-Learn` & `PyTorch`
-
-    - Datenanalyse mit `Pandas`
+  - Typescript & Javascript (6 Monate)
 
 
-**R**
-
-  - [postforecasts](https://github.com/joel-beck/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
-
-    - Heavy use of `Tidyverse` packages
-
-
-  - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
-
-    - OOP mit S3 Klassen & Unit Tests mit `testthat`
-
-
-Skills {#skills}
+Workflow {#workflow}
 -------------------------------------------------------------------
 
-  - 3 Jahre Erfahrung mit Python, R & Git
+  - Git
 
-  - 3 Jahre Erfahrung mit RMarkdown (jetzt Quarto) & LaTeX
+  - CI/CD with GitHub Actions & GitLab CI
 
-  - 1 Jahr Erfahrung mit SQL (SQLite)
+  - Docker
 
-  - 6 Monate Erfahrung mit Typescript & Javascript
 
-  - CI/CD (Github Actions, GitLab CI) & Docker
+Text {#writing}
+-------------------------------------------------------------------
 
-  - Backend Entwicklung in Python mit `FastAPI`
+  - Markdown
 
+  - RMarkdown / Quarto
+
+  - LaTeX
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Erstellt mit [pagedown](https://github.com/rstudio/pagedown).
+
+Source Code: <br>[github.com/joel-beck/resume](https://github.com/joel-beck/resume).
+
+Zuletzt aktualisiert: `r Sys.Date()`.
 
 
 
 Main
 ================================================================================
-
-
-
 
 Joel Beck {#title}
 ---------------------------------------------------------------------------------
@@ -135,21 +131,26 @@ N/A
 - Entwicklung und Durchführung von Onlinekursen über Statistik & Ökonometrie
 
 
-
 ### Tutorenstelle Mannheim
 
 Bachelorkurs Wahrscheinlichkeitstheorie
 
 N/A
 
-2020 - 2018
+03/2020 - 09/2018
 
 
+### Freiwilliges Soziales Jahr Saarbrücken
+
+Trainer im Jugendsport für Kinder zwischen 1 und 16 Jahren
+
+N/A
+
+08/2016 - 08/2015
 
 
 Bildungsweg {data-icon=graduation-cap data-concise=true}
 ---------------------------------------------------------------------------------
-
 
 ### Georg - August - Universität Göttingen
 
@@ -157,7 +158,7 @@ Master of Science: Angewandte Statistik
 
 N/A <!-- do not display location marker -->
 
-seit 09/2020
+09/2023 - 09/2020
 
 - Aktuelle Durchschnittsnote: 1,0 (Top 1%)
 - Schwerpunkte Machine Learning & Deep Learning
@@ -185,7 +186,7 @@ N/A
 - Schwerpunkte Stochastik und Optimierung
 
 
-<!-- ### Ludwigsgymnasium Saarbrücken
+### Ludwigsgymnasium Saarbrücken
 
 Abitur
 
@@ -193,7 +194,7 @@ N/A
 
 07/2015 - 09/2007
 
-- Abschlussnote: 1,0 -->
+- Abschlussnote: 1,0 (Top 1%)
 
 
 
@@ -207,3 +208,80 @@ Verliehen für akademische Leistungen und soziales Engagement
 N/A
 
 2023 - 2016
+
+
+
+Projekte {data-icon=code}
+-------------------------------------------------------------------
+
+### readnext (Python)
+
+Hybrid Recommender System for Computer Science Papers
+
+N/A
+
+2023
+
+- NLP mit `SpaCy`, `Gensim` & `Transformers`
+- Data Transformation mit `Polars`
+- Clean Code, Unit Tests mit `pytest` & [Dokumentation](https://joel-beck.github.io/readnext/) mit `MkDocs`
+- Source Code: [github.com/joel-beck/readnext](https://github.com/joel-beck/readnext)
+
+
+### airbnb-oslo (Python)
+
+Price Prediction Models for Airbnb Apartments in Oslo
+
+N/A
+
+2022
+
+- Modellierung mit `Scikit-Learn` & `PyTorch
+- Datenanalyse mit `Pandas`
+- Source Code: [github.com/joel-beck/airbnb-oslo](https://github.com/joel-beck/airbnb-oslo)
+
+
+### postforecasts (R)
+
+Post-Processing Methods for Covid-19 Forecasts
+
+N/A
+
+2022
+
+- Starker Fokus auf `Tidyverse` Paketen
+- Source Code: [github.com/joel-beck/post-processing-forecasts](https://github.com/joel-beck/post-processing-forecasts)
+
+
+### asp21bridge (R)
+
+Bayesian MCMC Sampler with Ridge Penalty
+
+N/A
+
+2021
+
+- OOP mit S3 Klassen & Unit Tests mit `testthat`
+- Source Code: [github.com/joel-beck/asp21bridge](https://github.com/joel-beck/asp21bridge)
+
+
+### shrtcts (R)
+
+RStudio Shortcuts Skripte mit dem [shrtcts](https://pkg.garrickadenbuie.com/shrtcts/) R Paket
+
+N/A
+
+2022
+
+- Source Code: [github.com/joel-beck/shrtcts-mac](https://github.com/joel-beck/shrtcts-mac)
+
+
+### drafts (Typescript)
+
+Action Skripte für die [Drafts](https://getdrafts.com) App
+
+N/A
+
+2023
+
+- Source Code: [github.com/joel-beck/drafts-scripts](https://github.com/joel-beck/drafts-scripts)

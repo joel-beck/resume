@@ -1,3 +1,17 @@
 :root {
     --sidebar-width: 17rem; /* Set the width of the right sidebar */
   }
+
+/* Headers in the sidebar */
+.aside .level2 {
+    margin-top: 0.3in; /* Increase space between headers in sidebar */
+    font-size: 0.7rem; /* Make font-size of headers in sidebar smaller */
+  }
+
+/* List markers in the sidebar */
+.aside li::before {
+    display: auto; /* Use the default display for list items */
+    position: relative;
+    margin-left: -4.25pt; /* Shift bullet points slightly to the left */
+    content: auto; /* Use the default content for list items */
+}

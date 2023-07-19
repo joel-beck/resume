@@ -6,8 +6,6 @@ output:
   pagedown::html_resume:
     css: ["onepage.css", "shared.css", "resume"]
     self_contained: TRUE
-  xaringan::moon_reader:
-    self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
 
@@ -21,9 +19,9 @@ Kontakt {#contact}
 
 <i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
 
-<i class="fab fa-github"></i> [joel-beck](https://github.com/joel-beck)
+<i class="fab fa-github"></i> [github.com/joel-beck](https://github.com/joel-beck)
 
-<i class="fab fa-linkedin"></i> https://www.linkedin.com/in/joelbeck07
+<i class="fab fa-linkedin"></i> [linkedin.com/joelbeck07](https://www.linkedin.com/in/joelbeck07)
 
 
 
@@ -39,6 +37,7 @@ Projekte {#projects}
     - Data Transformation mit `Polars`
 
     - Clean Code, Unit Tests mit `pytest` & [Dokumentation](https://joel-beck.github.io/readnext/) mit `MkDocs`
+
 
   - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
 
@@ -59,28 +58,33 @@ Projekte {#projects}
     - OOP mit S3 Klassen & Unit Tests mit `testthat`
 
 
+
 Skills {#skills}
 -------------------------------------------------------------------
 
-  - 3 Jahre Erfahrung mit Python, R & Git
+  - Python (3 Jahre)
 
-  - 3 Jahre Erfahrung mit RMarkdown (jetzt Quarto) & LaTeX
+  - R (3 Jahre)
 
-  - 1 Jahr Erfahrung mit SQL (SQLite)
+  - SQL with SQLite (1 Jahr)
 
-  - 6 Monate Erfahrung mit Typescript & Javascript
+  - Typescript & Javascript (6 Monate)
 
-  - CI/CD (Github Actions, GitLab CI) & Docker
+  - Git
 
-  - Backend Entwicklung in Python mit `FastAPI`
+  - CI/CD with Github Actions & Gitlab CI
+
+  - Docker
+
+  - Markdown, RMarkdown & Quarto
+
+  - LaTeX
 
 
 
 
 Main
 ================================================================================
-
-
 
 
 Joel Beck {#title}
@@ -142,7 +146,7 @@ Bachelorkurs Wahrscheinlichkeitstheorie
 
 N/A
 
-2020 - 2018
+03/2020 - 09/2018
 
 
 
@@ -157,7 +161,7 @@ Master of Science: Angewandte Statistik
 
 N/A <!-- do not display location marker -->
 
-seit 09/2020
+09/2023 - 09/2020
 
 - Aktuelle Durchschnittsnote: 1,0 (Top 1%)
 - Schwerpunkte Machine Learning & Deep Learning
@@ -183,18 +187,6 @@ N/A
 
 - Abschlussnote: 1,2 (Top 10%)
 - Schwerpunkte Stochastik und Optimierung
-
-
-<!-- ### Ludwigsgymnasium Saarbrücken
-
-Abitur
-
-N/A
-
-07/2015 - 09/2007
-
-- Abschlussnote: 1,0 -->
-
 
 
 Stipendium {data-icon=award}
