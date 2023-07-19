@@ -6,8 +6,6 @@ output:
   pagedown::html_resume:
     css: ["onepage.css", "shared.css", "resume"]
     self_contained: TRUE
-  xaringan::moon_reader:
-    self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
 

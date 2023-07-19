@@ -6,13 +6,10 @@ output:
   pagedown::html_resume:
     css: ["multipage.css", "shared.css", "resume"]
     self_contained: TRUE
-  xaringan::moon_reader:
-    self_contained: TRUE
 knit: pagedown::chrome_print      # click Knit Button for print to pdf
 ---
 
 <!-- display right side bar only on first page -->
-
 ```{css, echo=FALSE}
 .pagedjs_page:not(:first-of-type) {
   --sidebar-width: 0rem;
@@ -73,9 +70,9 @@ Disclaimer {#disclaimer}
 
 Made with [pagedown](https://github.com/rstudio/pagedown).
 
-Source code: <br>[github.com/joel-beck/resume](https://github.com/joel-beck/resume).
+Source Code: <br>[github.com/joel-beck/resume](https://github.com/joel-beck/resume).
 
-Last updated on `r Sys.Date()`.
+Last updated: `r Sys.Date()`.
 
 
 
@@ -269,7 +266,7 @@ N/A
 
 ### shrtcts (R)
 
-Configuration Files for the [shrtcts](https://pkg.garrickadenbuie.com/shrtcts/) R Package
+RStudio Shortcuts Scripts for the [shrtcts](https://pkg.garrickadenbuie.com/shrtcts/) R Package
 
 N/A
 
@@ -280,7 +277,7 @@ N/A
 
 ### drafts (Typescript)
 
-User Scripts for the [Drafts](https://getdrafts.com) App
+Action Scripts for the [Drafts](https://getdrafts.com) App
 
 N/A
 
