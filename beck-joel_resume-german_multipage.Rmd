@@ -236,7 +236,7 @@ N/A
 
 2022
 
-- Modellierung mit `Scikit-Learn` & `PyTorch
+- Modellierung mit `Scikit-Learn` & `PyTorch`
 - Datenanalyse mit `Pandas`
 - Source Code: [github.com/joel-beck/airbnb-oslo](https://github.com/joel-beck/airbnb-oslo)
 
