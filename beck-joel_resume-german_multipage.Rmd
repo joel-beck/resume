@@ -48,11 +48,13 @@ Sprachen {#languages}
 Workflow {#workflow}
 -------------------------------------------------------------------
 
-  - Git
+  - Git, GitHub & GitLab
 
   - CI/CD with GitHub Actions & GitLab CI
 
   - Docker
+
+  - Jira & Confluence
 
 
 Text {#writing}
@@ -60,7 +62,7 @@ Text {#writing}
 
   - Markdown
 
-  - RMarkdown / Quarto
+  - RMarkdown & Quarto
 
   - LaTeX
 
