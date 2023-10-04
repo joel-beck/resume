@@ -9,6 +9,8 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{xcolor}
+
 \input{glyphtounicode}
 
 
@@ -50,3 +52,11 @@
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
+
+% change appearance of hyperlinks, numbers specify percentage of first color
+\hypersetup{
+    colorlinks,
+    linkcolor={blue!60!black}, % internal links
+    citecolor={blue!60!black}, % citations
+    urlcolor={blue!60!black} % external links/urls
+}
