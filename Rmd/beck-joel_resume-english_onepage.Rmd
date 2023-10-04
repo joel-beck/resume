@@ -1,0 +1,199 @@
+---
+title: "Curriculum Vitae"
+author: "Joel Beck"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ["../css/onepage.css", "../css/shared.css", "resume"]
+    self_contained: TRUE
+knit: pagedown::chrome_print      # click Knit Button for print to pdf
+---
+
+
+Aside
+================================================================================
+
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
+
+<i class="fab fa-github"></i> [github.com/joel-beck](https://github.com/joel-beck)
+
+<i class="fab fa-linkedin"></i> [linkedin.com/joelbeck07](https://www.linkedin.com/in/joelbeck07)
+
+
+
+Projects {#projects}
+-------------------------------------------------------------------
+
+**Python**
+
+  - [readnext](https://github.com/joel-beck/readnext): Hybrid Recommender System for Computer Science Papers
+
+    - NLP with `SpaCy`, `Gensim` & `Transformers`
+
+    - Data Transformation with `Polars`
+
+    - Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
+
+
+  - [airbnb-oslo](https://github.com/joel-beck/airbnb-oslo): Price Prediction Models for Airbnb Apartments in Oslo
+
+    - Modeling with `Scikit-Learn` & `PyTorch`
+
+    - Data Analysis with `Pandas`
+
+
+**R**
+
+  - [postforecasts](https://github.com/joel-beck/post-processing-forecasts): Post-Processing Methods for Covid-19 Forecasts
+
+    - Heavy use of `Tidyverse` packages
+
+
+  - [asp21bridge](https://github.com/joel-beck/asp21bridge): Bayesian MCMC Sampler with Ridge Penalty
+
+    - OOP with S3 classes, unit testing with `testthat`
+
+
+
+Skills {#skills}
+-------------------------------------------------------------------
+
+  - Python (3 years)
+
+  - R (3 years)
+
+  - SQL with SQLite (1 year)
+
+  - Typescript & Javascript (6 months)
+
+  - Git
+
+  - CI/CD with Github Actions & Gitlab CI
+
+  - Docker
+
+  - Markdown, RMarkdown & Quarto
+
+  - LaTeX
+
+
+
+
+Main
+================================================================================
+
+
+Joel Beck {#title}
+---------------------------------------------------------------------------------
+
+
+Work Experience {data-icon=chalkboard-teacher}
+---------------------------------------------------------------------------------
+
+### Internship: Data Scientist
+
+eoda GmbH Kassel
+
+N/A
+
+01/2023 - 11/2022
+
+- Contributed to MLOps Processes and introduced Unit Testing
+- Built Prediction Models with `Scikit-Learn` & `Tidymodels`
+- Published Blog Posts about the [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) & Pandas
+
+
+### Teaching Assistant Göttingen
+
+Master's course Econometrics I
+
+N/A
+
+09/2022 - 10/2021
+
+
+### Research Assistant Göttingen
+
+Chair for Statistics
+
+N/A
+
+04/2022 - 04/2021
+
+- Development and Documentation of [Liesel](https://github.com/liesel-devs/liesel), \
+an R & Python Framework for Bayesian Regression Models
+
+
+### Internship: Content Creator
+
+Studybees GmbH Mannheim
+
+N/A
+
+06/2020 - 03/2020
+
+- Development and Teaching of Online Courses about Statistics & Econometrics
+
+
+### Teaching Assistant Mannheim
+
+Bachelor's course Probability Theory
+
+N/A
+
+03/2020 - 09/2018
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+---------------------------------------------------------------------------------
+
+
+### Georg - August - University Göttingen
+
+Master of Science: Applied Statistics
+
+N/A <!-- do not display location marker -->
+
+09/2023 - 09/2020
+
+- Current Average Grade: 1.0 (Top 1%)
+- Focus on Machine Learning & Deep Learning
+- Master's Thesis about Recommender Systems with NLP
+
+
+### University of Oslo
+
+ERASMUS Study Abroad
+
+N/A
+
+12/2018 - 08/2018
+
+
+### University of Mannheim
+
+Bachelor of Science: Business Mathematics
+
+N/A
+
+03/2020 - 09/2016 <!-- timeline order from bottom to top -->
+
+- Overall Grade: 1.2 (Top 10%)
+- Focus on Stochastics und Optimization
+
+
+Scholarship {data-icon=award}
+-------------------------------------------------------------------
+
+### Stiftung der deutschen Wirtschaft
+
+Awarded for academic achievements and social engagement
+
+N/A
+
+2023 - 2016

@@ -1,0 +1,288 @@
+---
+title: "Curriculum Vitae"
+author: "Joel Beck"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ["../css/multipage.css", "../css/shared.css", "resume"]
+    self_contained: TRUE
+knit: pagedown::chrome_print      # click Knit Button for print to pdf
+---
+
+<!-- display right side bar only on first page -->
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+```
+
+Aside
+================================================================================
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+<i class="fa fa-envelope"></i> joel.beck@stud.uni-goettingen.de
+
+<i class="fab fa-github"></i> [github.com/joel-beck](https://github.com/joel-beck)
+
+<i class="fab fa-linkedin"></i> [linkedin.com/joelbeck07](https://www.linkedin.com/in/joelbeck07)
+
+
+
+Languages {#languages}
+-------------------------------------------------------------------
+
+  - Python (3 years)
+
+  - R (3 years)
+
+  - SQL with SQLite (1 year)
+
+  - Typescript & Javascript (6 months)
+
+
+Workflow {#workflow}
+-------------------------------------------------------------------
+
+  - Git, GitHub & GitLab
+
+  - CI/CD with GitHub Actions & GitLab CI
+
+  - Docker
+
+  - Jira & Confluence
+
+
+Writing {#writing}
+-------------------------------------------------------------------
+
+  - Markdown
+
+  - RMarkdown / Quarto
+
+  - LaTeX
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with [pagedown](https://github.com/rstudio/pagedown).
+
+Source Code: <br>[github.com/joel-beck/resume](https://github.com/joel-beck/resume).
+
+Last updated: `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Joel Beck {#title}
+---------------------------------------------------------------------------------
+
+
+Work Experience {data-icon=chalkboard-teacher}
+---------------------------------------------------------------------------------
+
+### Internship: Data Scientist
+
+eoda GmbH Kassel
+
+N/A
+
+01/2023 - 11/2022
+
+- Contributed to MLOps Processes and introduced Unit Testing
+- Built Prediction Models with `Scikit-Learn` & `Tidymodels`
+- Published Blog Posts about the [Tidyverse](https://www.eoda.de/en/wissen/blog/10-tidyverse-functions-that-might-save-your-day/) & Pandas
+
+
+### Teaching Assistant Göttingen
+
+Master's course Econometrics I
+
+N/A
+
+09/2022 - 10/2021
+
+
+### Research Assistant Göttingen
+
+Chair for Statistics
+
+N/A
+
+04/2022 - 04/2021
+
+- Development and Documentation of [Liesel](https://github.com/liesel-devs/liesel), \
+an R & Python Framework for Bayesian Regression Models
+
+
+### Internship: Content Creator
+
+Studybees GmbH Mannheim
+
+N/A
+
+06/2020 - 03/2020
+
+- Development and Teaching of Online Courses about Statistics & Econometrics
+
+
+### Teaching Assistant Mannheim
+
+Bachelor's course Probability Theory
+
+N/A
+
+03/2020 - 09/2018
+
+
+### Voluntary Year of Social Service Saarbrücken
+
+Assistant Sports Coach for children between 1 and 16 years
+
+N/A
+
+08/2016 - 08/2015
+
+
+Education {data-icon=graduation-cap data-concise=true}
+---------------------------------------------------------------------------------
+
+### Georg - August - University Göttingen
+
+Master of Science: Applied Statistics
+
+N/A <!-- do not display location marker -->
+
+09/2023 - 09/2020
+
+- Current Average Grade: 1.0 (Top 1%)
+- Focus on Machine Learning & Deep Learning
+- Master's Thesis about Recommender Systems with NLP
+
+
+### University of Oslo
+
+ERASMUS Study Abroad
+
+N/A
+
+12/2018 - 08/2018
+
+
+### University of Mannheim
+
+Bachelor of Science: Business Mathematics
+
+N/A
+
+03/2020 - 09/2016 <!-- timeline order from bottom to top -->
+
+- Overall Grade: 1.2 (Top 10%)
+- Focus on Stochastics und Optimization
+
+
+### Ludwigsgymnasium Saarbrücken
+
+Abitur
+
+N/A
+
+07/2015 - 09/2007
+
+- Overall Grade: 1.0 (Top 1%)
+
+
+
+Scholarship {data-icon=award}
+-------------------------------------------------------------------
+
+### Stiftung der deutschen Wirtschaft
+
+Awarded for academic achievements and social engagement
+
+N/A
+
+2023 - 2016
+
+
+Projects {data-icon=code}
+--------------------------------------------------------------------
+
+### readnext (Python)
+
+Hybrid Recommender System for Computer Science Papers
+
+N/A
+
+2023
+
+- NLP with `SpaCy`, `Gensim` & `Transformers`
+- Data Transformation with `Polars`
+- Clean code, unit testing with `pytest` & [documentation](https://joel-beck.github.io/readnext/) with `MkDocs`
+- Source Code: [github.com/joel-beck/readnext](https://github.com/joel-beck/readnext)
+
+
+### airbnb-oslo (Python)
+
+Price Prediction Models for Airbnb Apartments in Oslo
+
+N/A
+
+2022
+
+- Modeling with `Scikit-Learn` & `PyTorch`
+- Data Analysis with `Pandas`
+- Source Code: [github.com/joel-beck/airbnb-oslo](https://github.com/joel-beck/airbnb-oslo)
+
+
+### postforecasts (R)
+
+Post-Processing Methods for Covid-19 Forecasts
+
+N/A
+
+2022
+
+- Heavy use of `Tidyverse` packages
+- Source Code: [github.com/joel-beck/post-processing-forecasts](https://github.com/joel-beck/post-processing-forecasts)
+
+
+### asp21bridge (R)
+
+Bayesian MCMC Sampler with Ridge Penalty
+
+N/A
+
+2021
+
+- OOP with S3 classes, unit testing with `testthat`
+- Source Code: [github.com/joel-beck/asp21bridge](https://github.com/joel-beck/asp21bridge)
+
+
+### shrtcts (R)
+
+RStudio Shortcuts Scripts for the [shrtcts](https://pkg.garrickadenbuie.com/shrtcts/) R Package
+
+N/A
+
+2022
+
+- Source Code: [github.com/joel-beck/shrtcts-mac](https://github.com/joel-beck/shrtcts-mac)
+
+
+### drafts (Typescript)
+
+Action Scripts for the [Drafts](https://getdrafts.com) App
+
+N/A
+
+2023
+
+- Source Code: [github.com/joel-beck/drafts-scripts](https://github.com/joel-beck/drafts-scripts)
