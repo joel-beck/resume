@@ -1,19 +1,73 @@
 \section{Projects}
+
 \HeadingsStart
+
 \ProjectHeading
-{Gitlytics}{Python, Flask, React, PostgreSQL, Docker}{June 2020 -- Present}
+{\href{https://github.com/joel-beck/readnext}{readnext}}{Python, transformers, sklearn, gensim, spacy, polars, requests, pydantic, pytest, MkDocs}{2023}
+
 \ItemsStart
-\Item{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-\Item{Implemented GitHub OAuth to get data from user’s repositories}
-\Item{Visualized GitHub data to show collaboration}
-\Item{Used Celery and Redis for asynchronous tasks}
+\Item{Developed a hybrid recommender system for computer science papers, resulting in 67\% higher Mean Average Precision (MAP) than the baseline.}
+\Item{Constructed a dataset from Semantic Scholar API and preprocessed it using spaCy and polars.}
+\Item{Applied multiple language models including SciBERT, FastText, and TF-IDF for recommendations.}
+\Item{Ensured robustness with 88\% code coverage, user input validation and continuous integration.}
+\Item{Provided comprehensive \href{https://joel-beck.github.io/readnext/}{documentation} with MkDocs, deployed to GitHub Pages.}
 \ItemsEnd
+
+% ----------------------------------------------------------------------
+
 \ProjectHeading
-{Simple Paintball}{Spiogt API, Java, Maven, TravisCI, Git}{May 2018 -- May 2020}
+{\href{https://github.com/joel-beck/drafts-scripts}{drafts}}{Typescript, Javascript, Bun}{2023}
+
 \ItemsStart
-\Item{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-\Item{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-\Item{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-\Item{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+\Item{Developed action scripts for the \href{https://getdrafts.com}{Drafts} app, automating text editing tasks.}
+\Item{Solved \href{https://forums.getdrafts.com/t/developing-outside-of-drafts/9578}{the challenge} to develop actions in Typescript using external editors, enhancing productivity.}
+\Item{Implemented bundling process with Bun to bundle Typescript files into Javascript and ensure compatibility with Drafts.}
 \ItemsEnd
+
+% ----------------------------------------------------------------------
+
+\ProjectHeading
+{\href{https://github.com/joel-beck/post-processing-forecasts}{postforecasts}}{R, tidyverse, testthat, RMarkdown}{2022}
+
+\ItemsStart
+\Item{Crafted an R package for post-processing of Covid-19 forecasts.}
+\Item{Contributed custom methods (Conformalized Quantile Regression and Quantile Spread Averaging) for enhanced post-processing.}
+\Item{Utilized tidyverse packages for data wrangling and visualization, and testthat for unit testing.}
+\ItemsEnd
+
+% ----------------------------------------------------------------------
+
+\ProjectHeading
+{\href{https://github.com/joel-beck/airbnb-oslo}{airbnb-oslo}}{Python, pytorch, sklearn, pandas, seaborn, beautifulsoup, LaTeX}{2022}
+
+\ItemsStart
+\Item{Predicted Airbnb prices in Oslo using an ensemble regression model, outperforming Ridge, Random Forest, XGBoost and Fully Connected Neural Network.}
+\Item{Enhanced data by scraping apartment images using BeautifulSoup.}
+\Item{Developed a CNN with PyTorch for image-based price categorization.}
+\Item{Analyzed latent space distribution using Variational Autoencoder (VAE).}
+\ItemsEnd
+
+% ----------------------------------------------------------------------
+
+\ProjectHeading
+{\href{https://github.com/joel-beck/shrtcts-mac}{shrtcts}}{R, RStudio}{2022}
+
+\ItemsStart
+\Item{Developed a collection of RStudio shortcuts using the \href{https://github.com/joel-beck/shrtcts-mac}{shrtcts} package.}
+\Item{Enabled keyboard-triggered commands to automate developer tasks, increasing productivity.}
+\ItemsEnd
+
+% ----------------------------------------------------------------------
+
+\ProjectHeading
+{\href{https://github.com/joel-beck/asp21bridge}{asp21bridge}}{R, tidyverse, testthat, S3, roxygen2, RMarkdown}{2021}
+
+\ItemsStart
+\Item{Created an R package featuring a Bayesian MCMC sampler with Ridge penalization.}
+\Item{Offered extensive diagnostic visuals and summaries using ggplot2.}
+\Item{Facilitated comparison between frequentist MLE and Bayesian estimates with/without Ridge penalization.}
+\Item{Introduced a custom S3 class for sampling outputs, incorporated unit testing with testthat, documented with roxygen2.}
+\ItemsEnd
+
 \HeadingsEnd
+
